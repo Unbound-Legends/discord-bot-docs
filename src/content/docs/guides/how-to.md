@@ -24,9 +24,9 @@ Here are some of the reasons why the RPG Sessions bot is useful:
 
 The RPG Sessions bot uses **commands** to do things. Commands are typed into the chat, and they usually start with a slash (`/`). Here are some common ways you might interact with the bot:
 
-- **Checking Character Info**: If you want to share your character sheet or a specific stat, there are commands like [`/character view`](/reference/character/#character-view) to display information to the rest of the group.
-- **Rolling Dice**: To roll dice, you use a command like [`/dice roll`](/reference/dice/#dice-roll). For example, typing `/dice roll yyrp` will roll two yellow dice, one red die, and one purple die. If you have a character connected, you can use skill shortcuts like `/dice roll (brawl)pp` to roll your brawl check against 2 purple dice. You can also add modifiers or use different types of dice.
-- **Managing Initiative**: During combat, you can use commands like [`/initiative start`](/reference/initiative/#initiative-start) to let the bot manage the turn order, making sure everyone knows when it's their time to act.
+- **Checking Character Info**: If you want to share your character sheet or a specific stat, there are commands like [`/character view`](../reference/character/#character-view) to display information to the rest of the group.
+- **Rolling Dice**: To roll dice, you use a command like [`/dice roll`](../reference/dice/#dice-roll). For example, typing `/dice roll yyrp` will roll two yellow dice, one red die, and one purple die. If you have a character connected, you can use skill shortcuts like `/dice roll (brawl)pp` to roll your brawl check against 2 purple dice. You can also add modifiers or use different types of dice.
+- **Managing Initiative**: During combat, you can use commands like [`/initiative start`](../reference/initiative/#initiative-start) to let the bot manage the turn order, making sure everyone knows when it's their time to act.
 
 The bot will respond right in the chat, so everyone knows what's happening. No more confusion about whose turn it is or who rolled what number!
 
@@ -35,7 +35,7 @@ The bot will respond right in the chat, so everyone knows what's happening. No m
 If you want to add the RPG Sessions bot to your server, you'll need to follow these steps:
 
 1. **Invite the Bot**: Are you a server manager and want to add the bot to your server? [Invite the bot here!](https://discord.com/api/oauth2/authorize?client_id=534606682928578572&permissions=309774806080&scope=bot)
-2. **Set Permissions**: The bot will request the permissions it requires, but you can run [`/debug info`](/misc/debug/#debug-info) to make sure it has what it needs. The output of the command explains each permission it needs and why it needs it.
+2. **Set Permissions**: The bot will request the permissions it requires, but you can run [`/debug info`](../misc/debug/#debug-info) to make sure it has what it needs. The output of the command explains each permission it needs and why it needs it.
 3. **Use Commands**: Once the bot is added, everyone can start using commands to roll dice, check stats, and more.
 4. **Synchronize with the Game Table**: [Check out our guide](/guides/connecting-to-game-table/) on setting up the Discord Bot so it synchronizes events between the Discord server and associated RPG Sessions Game Table
 
