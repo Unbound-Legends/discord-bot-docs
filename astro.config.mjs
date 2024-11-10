@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://unbound-legends.github.io",
-	base: "/discord-bot-docs",
+  base: "/discord-bot-docs",
   integrations: [
     starlight({
       title: "RPG Sessions Discord Bot",
@@ -13,6 +13,7 @@ export default defineConfig({
       logo: { src: "./src/assets/mark.png" },
       social: {
         discord: "https://discord.gg/DfEkRzUbjk",
+        github: "https://github.com/Unbound-Legends/discord-bot-docs",
       },
       sidebar: [
         {
