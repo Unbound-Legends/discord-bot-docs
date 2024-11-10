@@ -4,11 +4,12 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.rpgsessions.com',
+  site: "https://www.rpgsessions.com",
   integrations: [
     starlight({
       title: "RPG Sessions Discord Bot",
-			favicon: 'mark.png',
+      favicon: "mark.png",
+      logo: { src: "./src/assets/mark.png" },
       social: {
         discord: "https://discord.gg/DfEkRzUbjk",
       },
@@ -19,7 +20,10 @@ export default defineConfig({
           items: [
             // Each item here is one entry in the navigation menu.
             { label: "Introduction", slug: "guides/how-to" },
-            { label: "Connecting a Game Table", slug: "guides/connecting-to-game-table" },
+            {
+              label: "Connecting a Game Table",
+              slug: "guides/connecting-to-game-table",
+            },
           ],
         },
         {
