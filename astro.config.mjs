@@ -28,6 +28,10 @@ export default defineConfig({
               label: "Connecting a Game Table",
               slug: "guides/connecting-to-game-table",
             },
+            {
+              label: "Synchronize Game Table Events",
+              slug: "guides/sync-game-table-events",
+            },
           ],
         },
         {

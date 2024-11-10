@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: A guide on how to connect a game table to a Discord Server with the RPG Sessions Discord bot.
+description: An introduction to the RPG Sessions Discord Bot and general concepts for Discord Bots
 ---
 
 If you're here, it's probably because you joined Discord to play a game with friends using the RPG Sessions bot. But maybe you're not quite sure what a bot is or how it helps. Don’t worry, this guide will help you get comfortable with the RPG Sessions bot and show you how it makes your games easier and more fun.
