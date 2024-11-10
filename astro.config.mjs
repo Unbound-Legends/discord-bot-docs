@@ -38,6 +38,10 @@ export default defineConfig({
           label: "Command Reference",
           autogenerate: { directory: "reference" },
         },
+        {
+          label: "Other Commands",
+          autogenerate: { directory: "misc" },
+        },
       ],
     }),
   ],

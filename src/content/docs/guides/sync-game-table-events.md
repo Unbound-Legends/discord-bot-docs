@@ -30,6 +30,6 @@ To do this, use the [`/options`](/reference/options/) command (note: no `set:cha
 
 ## Troubleshooting
 
-The most common problems that occur from this process are a result of the bot lacking the required permissions either in the server or the channel specifically. Use the `/debug info` command to identify if the bot has all of the permissions it needs. The output from the command describes each permission and why it needs it, make sure they all have green checkmarks to indicate they are properly enabled.
+The most common problems that occur from this process are a result of the bot lacking the required permissions either in the server or the channel specifically. Use the [`/debug info`](/misc/debug/#debug-info) command to identify if the bot has all of the permissions it needs. The output from the command describes each permission and why it needs it, make sure they all have green checkmarks to indicate they are properly enabled.
 
 If you still need help, [join our Discord server](https://discord.com/invite/DfEkRzUbjk). We're here to help!

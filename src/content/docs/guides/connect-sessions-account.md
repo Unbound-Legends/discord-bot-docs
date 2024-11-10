@@ -14,7 +14,7 @@ This connection is what brings the most amount of value to using the RPG Session
 ![Link Account](../../../assets/guides/connect-account/link-discord.png)
 4. Sign in to Discord if required and then accept the account link
    
-After signed in, you can verify that you're successfully linked by running `/debug info` in a server with the bot and seeing if the User ID is set. If everything is right, you should be good to go!
+After signed in, you can verify that you're successfully linked by running [`/debug info`](/misc/debug/#debug-info) in a server with the bot and seeing if the User ID is set. If everything is right, you should be good to go!
 
 ## Disconnecting your account
 If for some reason you need to disconnect your RPG Sessions account from your Discord account, you can follow the above steps to get to your profile page and hit the `Unlink Account` button in your profile.

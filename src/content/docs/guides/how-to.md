@@ -35,7 +35,7 @@ The bot will respond right in the chat, so everyone knows what's happening. No m
 If you want to add the RPG Sessions bot to your server, you'll need to follow these steps:
 
 1. **Invite the Bot**: Are you a server manager and want to add the bot to your server? [Invite the bot here!](https://discord.com/api/oauth2/authorize?client_id=534606682928578572&permissions=309774806080&scope=bot)
-2. **Set Permissions**: The bot will request the permissions it requires, but you can run `/debug info` to make sure it has what it needs. The output of the command explains each permission it needs and why it needs it.
+2. **Set Permissions**: The bot will request the permissions it requires, but you can run [`/debug info`](/misc/debug/#debug-info) to make sure it has what it needs. The output of the command explains each permission it needs and why it needs it.
 3. **Use Commands**: Once the bot is added, everyone can start using commands to roll dice, check stats, and more.
 4. **Synchronize with the Game Table**: [Check out our guide](/guides/connecting-to-game-table/) on setting up the Discord Bot so it synchronizes events between the Discord server and associated RPG Sessions Game Table
 
