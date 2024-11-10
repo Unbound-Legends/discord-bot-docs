@@ -8,6 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "RPG Sessions Discord Bot",
+			favicon: 'mark.png',
       social: {
         discord: "https://discord.gg/DfEkRzUbjk",
       },
