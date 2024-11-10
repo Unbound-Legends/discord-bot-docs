@@ -19,4 +19,4 @@ After signed in, you can verify that you're successfully linked by running [`/de
 ## Disconnecting your account
 If for some reason you need to disconnect your RPG Sessions account from your Discord account, you can follow the above steps to get to your profile page and hit the `Unlink Account` button in your profile.
 
-Alternatively, you can run the command `/debug disconnect` from a server with the bot in it and the bot will break the connection for you.
+Alternatively, you can run the command [`/debug disconnect`](/discord-bot-docs/misc/debug/#debug-disconnect) from a server with the bot in it and the bot will break the connection for you.
