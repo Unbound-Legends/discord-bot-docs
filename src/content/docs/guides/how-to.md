@@ -1,5 +1,5 @@
 ---
-title: How to use the RPG Sessions Discord Bot
+title: Introduction
 description: A guide on how to connect a game table to a Discord Server with the RPG Sessions Discord bot.
 ---
 

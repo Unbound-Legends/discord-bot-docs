@@ -21,6 +21,10 @@ export default defineConfig({
             // Each item here is one entry in the navigation menu.
             { label: "Introduction", slug: "guides/how-to" },
             {
+              label: "Connect your Account",
+              slug: "guides/connect-sessions-account",
+            },
+            {
               label: "Connecting a Game Table",
               slug: "guides/connecting-to-game-table",
             },
