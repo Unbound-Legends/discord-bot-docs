@@ -6,7 +6,6 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   site: "https://www.rpgsessions.com",
   base: "/discord-bot-docs",
-  trailingSlash: "never",
   integrations: [
     starlight({
       title: "RPG Sessions Discord Bot",
