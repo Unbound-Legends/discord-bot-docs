@@ -23,7 +23,7 @@ If you only want one type of event to go to the current channel, only turn the b
 
 You can also synchronize messages sent with the [`/ic`](/discord-bot-docs/reference/in-character) command back to the messages in your Game Table. This is great for role playing or asynchronous game play.
 
-To do this, use the [`/options`](/discord-bot-docs/reference/options/) command (note: no `set:channel` on this one). A button will show up that controls whether the bot can synchronize these messages. To enable it, the button should be blue.
+To do this, use the [`/options`](/discord-bot-docs/reference/options) command (note: no `set:channel` on this one). A button will show up that controls whether the bot can synchronize these messages. To enable it, the button should be blue.
 
 ![Sync Options Checked](../../../assets/guides/sync-game-table-events/sync-in-character-button.png)
 
