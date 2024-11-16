@@ -46,6 +46,9 @@ export default defineConfig({
           autogenerate: { directory: "misc" },
         },
       ],
+      components: {
+        SiteTitle: './src/components/SiteTitle.astro',
+      }
     }),
   ],
 });
