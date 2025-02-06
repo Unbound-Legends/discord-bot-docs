@@ -1,17 +1,11 @@
-# Use Node.js base image
-FROM node:22-alpine
+# Use nginx alpine as base image
+FROM nginx:alpine
 
-# Install http-server globally
-RUN npm install -g http-server
+# Copy the static files to nginx html directory
+COPY dist /usr/share/nginx/html
 
-# Create app directory
-WORKDIR /app
+# Expose port 80 (nginx default port)
+EXPOSE 80
 
-# Copy dist folder
-COPY dist /app
-
-# Expose port 8080
-EXPOSE 8080
-
-# Start the server
-CMD ["http-server", "--port", "8080", "-c-1"]
+# Nginx runs automatically in the foreground when container starts
+# so we don't need an explicit CMD
