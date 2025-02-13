@@ -1,6 +1,9 @@
 # Use nginx alpine as base image
 FROM nginx:alpine
 
+# Add build arg for cache busting
+ARG BUILD_VERSION=unknown
+
 # Copy the static files to nginx html directory
 COPY dist /usr/share/nginx/html
 
@@ -19,7 +22,11 @@ RUN echo 'events { worker_connections 1024; }' > /etc/nginx/nginx.conf && \
         } \
         location / { \
             root /usr/share/nginx/html; \
-            index index.html; \
+            index index.html index.htm; \
+            try_files $uri $uri/index.html =404; \
+            expires 1y; \
+            add_header Cache-Control "public, no-transform"; \
+            add_header ETag "'$BUILD_VERSION'"; \
         } \
     } \
 }' >> /etc/nginx/nginx.conf

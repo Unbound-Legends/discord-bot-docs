@@ -4,7 +4,7 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.rpgsessions.com",
+  site: "https://rpgsessions.com",
   base: "/discord-bot-docs",
   trailingSlash: "never",
   integrations: [
@@ -47,8 +47,8 @@ export default defineConfig({
         },
       ],
       components: {
-        SiteTitle: './src/components/SiteTitle.astro',
-      }
+        SiteTitle: "./src/components/SiteTitle.astro",
+      },
     }),
   ],
 });
