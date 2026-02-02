@@ -1,6 +1,7 @@
 ---
 title: /options
 description: The options command group allows you to manage options for the bot in your server
+slug: reference/options
 ---
 
 The `/options` command allows Game Masters (GMs) to configure various settings for how the game and bot interact within Discord. This command is useful for managing the synchronization of in-character actions, dice rolls, initiative tracking, and controlling the channel where certain actions are allowed. Only GMs have permission to modify these options.

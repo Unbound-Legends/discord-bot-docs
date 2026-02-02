@@ -1,6 +1,7 @@
 ---
 title: Connecting your RPG Sessions Account
 description: A guide on how to connect your RPG Sessions account to Discord
+slug: guides/connect-sessions-account
 ---
 
 Connecting your RPG Sessions account to your Discord account is how the RPG Sessions Discord Bot knows your characters, the games you're in, your Patreon status, and even your preferred dice shorthand (color or name systems). 
@@ -11,7 +12,7 @@ This connection is what brings the most amount of value to using the RPG Session
 1. Go to [https://app.rpgsessions.com](https://app.rpgsessions.com) and sign in.
 2. Go to [your profile page](https://app.rpgsessions.com/user/profile).
 3. In the Discord section of your profile page, hit `Link Account`.
-![Link Account](../../../assets/guides/connect-account/link-discord.png)
+![Link Account](../../../../assets/guides/connect-account/link-discord.png)
 4. Sign in to Discord if required and then accept the account link
    
 After signed in, you can verify that you're successfully linked by running [`/debug info`](/discord-bot-docs/misc/debug#debug-info) in a server with the bot and seeing if the User ID is set. If everything is right, you should be good to go!

@@ -1,6 +1,7 @@
 ---
 title: /gm
 description: The gm command group allows you to manage GMs for the current game
+slug: reference/gm
 ---
 
 The `/gm` command provides tools for managing Game Masters (GMs) in a Discord server. This command is essential for adding or removing GMs, thereby helping manage permissions for various game sessions effectively. Only users with administrative permissions or people who are currently GMs can use this command to manage GM roles.

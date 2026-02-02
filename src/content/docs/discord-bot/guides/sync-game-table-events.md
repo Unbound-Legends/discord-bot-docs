@@ -1,6 +1,7 @@
 ---
 title: Sync with your Game Table
 description: A guide on how to set your Discord server to synchronize back and forth with your Game Table
+slug: guides/sync-game-table-events
 ---
 
 By default, everything that happens with your game from the Discord Bot, except for in-character messages, gets synchronized to the Game Table. However, nothing that happens on the Game Table gets synchronized back to the Discord Bot. This has to be the default because setting this up requires action on the user's part to create the required webhooks the bot needs for the channels it needs to send events to.
@@ -14,9 +15,9 @@ In this guide, we'll walk through how to set up the Discord Bot so that it can r
 ## Sync your Game Table to your Discord Server
 
 Events from game tables can be set up either to specific channels for each event type or all events to the same channel. Go to the channel you want an event to be sent to and use the [`/options set:channel`](/discord-bot-docs/reference/options#options) command.
-![Sync Options Unchecked](../../../assets/guides/connect-game-table/sync-options-unchecked.png)
+![Sync Options Unchecked](../../../../assets/guides/connect-game-table/sync-options-unchecked.png)
 After running this command, buttons will appear that allow you to enable syncing dice rolls, initiative, and game messages between the game table and current channel. For them to be enabled, you need to press the buttons so they turn blue.  
-![Sync Options Checked](../../../assets/guides/connect-game-table/sync-options-checked.png)
+![Sync Options Checked](../../../../assets/guides/connect-game-table/sync-options-checked.png)
 If you only want one type of event to go to the current channel, only turn the button for that event blue.
 
 ## Sync your in-character messages to your Game Table
@@ -25,7 +26,7 @@ You can also synchronize messages sent with the [`/ic`](/discord-bot-docs/refere
 
 To do this, use the [`/options`](/discord-bot-docs/reference/options) command (note: no `set:channel` on this one). A button will show up that controls whether the bot can synchronize these messages. To enable it, the button should be blue.
 
-![Sync Options Checked](../../../assets/guides/sync-game-table-events/sync-in-character-button.png)
+![Sync Options Checked](../../../../assets/guides/sync-game-table-events/sync-in-character-button.png)
 
 
 ## Troubleshooting

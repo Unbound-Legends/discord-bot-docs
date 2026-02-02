@@ -1,6 +1,7 @@
 ---
 title: /crit
 description: The crit command group allows you to list and roll crits from any crit table you can access
+slug: reference/crit
 ---
 
 The `/crit` command provides tools to roll for or view critical hit tables. It includes subcommands that allow you to either roll for a new critical hit or see a list of possible critical injuries, making it useful for managing and referencing critical effects during gameplay, especially for GMs.

@@ -1,6 +1,7 @@
 ---
 title: /game
 description: The game command group allows you to manage your game
+slug: reference/game
 ---
 
 The `/game` command provides a set of subcommands used for managing games. These commands allow players to join, leave, add, remove, pair, unpair, and view details about games they are participating in. Game management is essential for coordinating players, keeping track of game data, and ensuring a smooth experience.

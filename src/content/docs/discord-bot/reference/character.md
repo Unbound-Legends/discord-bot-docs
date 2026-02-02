@@ -1,6 +1,7 @@
 ---
 title: /character
 description: All of the commands related to managing your characters through the RPG Sessions Discord Bot
+slug: reference/character
 ---
 
 ### Subcommands

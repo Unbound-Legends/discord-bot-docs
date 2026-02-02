@@ -1,6 +1,7 @@
 ---
 title: /destiny
 description: The destiny command group allows you to view and manage destiny points for your current game
+slug: reference/destiny
 ---
 
 The `/destiny` command provides a collection of subcommands that handle everything related to destiny points in your game. Destiny points are a core mechanic, often used to influence gameplay, either by players or the Game Master (GM). With the `/destiny` commands, you can view, add, remove, roll, use, and clear destiny points as needed.

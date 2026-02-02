@@ -1,6 +1,7 @@
 ---
 title: "/debug"
 description: The debug command group allows for basic troubleshooting
+slug: misc/debug
 ---
 
 The debug subcommands exist for troubleshooting problems in the Discord Bot. They're not pivotal or super useful for normal gameplay, but are useful while setting up the bot.
@@ -40,7 +41,7 @@ It will also do an embed test to make sure the bot can properly embed messages a
 ### Example Output
 
 Upon execution, you might receive an output like:
-![Debug Info Example Output](../../../assets/misc/debug/debug-info.png)
+![Debug Info Example Output](../../../../assets/misc/debug/debug-info.png)
 
 ### Important Notes
 

@@ -1,6 +1,7 @@
 ---
 title: "/invite"
 description: The invite command allows for quickly getting an invite link for the Discord Bot to add it to a new server
+slug: misc/invite
 ---
 
 

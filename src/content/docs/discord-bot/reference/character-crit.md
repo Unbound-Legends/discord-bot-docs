@@ -1,6 +1,7 @@
 ---
 title: "/character crit"
 description: The crit subcommand group allows you to list and manage crits related to your character
+slug: reference/character-crit
 ---
 
 The `/character crit` command group provides tools for managing your character's critical injuries. This includes listing current injuries, rolling for new critical hits, adding injuries manually, and healing existing injuries. This command is essential for tracking the state of your character's health during gameplay.
