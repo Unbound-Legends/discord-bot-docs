@@ -3,17 +3,22 @@ title: Interactive Maps
 description: Documentation for RPG Sessions interactive maps and battle grids
 ---
 
-Create immersive tactical encounters with RPG Sessions interactive maps. Build battle grids, add tokens, manage fog of war, and bring your combat scenes to life.
+Run tactical encounters with real-time collaboration using Sessions Maps. You can build interactive battle maps, place tokens and assets, draw directly on the map, and manage fog of war—all while your players see changes instantly in their browsers.
+
+:::note[Patreon Required]
+Sessions Maps requires being an **Adventurer tier or higher** patron, or playing at a table where there is an Adventurer tier or higher table token assigned to the game. [Support us on Patreon](https://www.patreon.com/rpgsessions) to unlock Maps.
+:::
 
 ## Features
 
-RPG Sessions Maps provides everything you need for tactical gameplay:
+Sessions Maps gives you everything you need for tactical gameplay:
 
-- **Battle Grids** — Create maps with customizable grids for tactical combat
-- **Tokens & Assets** — Add character tokens, monsters, and environmental objects to your maps
-- **Fog of War** — Control what your players can see with dynamic visibility tools
-- **Map Sharing** — Share maps with your players during game sessions
-- **Integration** — Use maps alongside your game table and character sheets
+- **Real-time Collaboration** — Everyone sees changes instantly. Move a token, draw a line, or reveal an area, and your players see it the moment it happens.
+- **Character Integration** — Add tokens linked to your RPG Sessions characters. Tokens display character stats and can show range bands for attacks and abilities.
+- **Fog of War** — Control visibility with fog areas that hide parts of the map. As players explore, the fog reveals to show where they've been.
+- **Drawing Tools** — Sketch directly on the map to highlight areas, draw paths, or add quick notes during play.
+- **Encounters** — GMs can prepare encounters ahead of time and add them to the map during sessions.
+- **Asset Management** — Add images, tokens, and environmental objects. Lock assets in place, organize them into layers, and copy/paste across maps.
 
 ## Getting Started
 

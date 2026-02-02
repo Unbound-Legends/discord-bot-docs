@@ -3,18 +3,18 @@ title: RPG Sessions Platform
 description: Documentation for the RPG Sessions virtual tabletop platform
 ---
 
-RPG Sessions is a comprehensive platform for running tabletop RPGs online. Create game tables, manage characters, track campaigns, and play with friends anywhere in the world.
+RPG Sessions is the platform for **Star Wars RPG** and **Genesys**. Whether you're playing Edge of the Empire, Age of Rebellion, Force and Destiny, or any Genesys setting, this is where you manage characters, run games, and roll those distinctive narrative dice with your group.
 
 ## What You Can Do
 
-RPG Sessions provides tools for every aspect of your tabletop gaming experience:
+RPG Sessions gives you everything you need to play narrative dice games online or at the table:
 
-- **Game Tables** — Create virtual tabletops where you and your players can gather for sessions
-- **Character Sheets** — Build and manage characters with our intuitive character creation tools
-- **Vehicle Sheets** — Track vehicles, starships, and other craft with dedicated sheets
-- **Talents & Abilities** — Manage character talents, force powers, and special abilities
-- **Dice Rolling** — Roll dice with our built-in system that handles Star Wars RPG dice and more
-- **Campaign Management** — Organize your campaigns, track progress, and manage your game world
+- **Character Sheets** — Build and manage characters with full support for talents, abilities, force powers, and all the crunch your system requires
+- **Vehicle Sheets** — Track starships, speeders, and other craft with dedicated vehicle sheets
+- **Game Tables** — Create virtual spaces where you and your players can gather, share characters, and play together
+- **Dice Rolling** — Roll narrative dice with automatic symbol calculation, including the full Star Wars and Genesys dice sets
+- **Character Imports** — Import characters from popular tools like OggDude's Character Generator and SWCharGen Emporium
+- **Discord Integration** — Access your characters and roll dice directly from Discord with our bot
 
 ## Getting Started
 

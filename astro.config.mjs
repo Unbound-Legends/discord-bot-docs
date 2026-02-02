@@ -12,10 +12,11 @@ export default defineConfig({
       title: "RPG Sessions Documentation",
       favicon: "mark.png",
       logo: { src: "./src/assets/mark.png" },
-      social: {
-        discord: "https://discord.gg/DfEkRzUbjk",
-        github: "https://github.com/Unbound-Legends/discord-bot-docs",
-      },
+      social: [
+        { icon: "discord", label: "Discord", href: "https://discord.gg/DfEkRzUbjk" },
+        { icon: "github", label: "GitHub", href: "https://github.com/Unbound-Legends/discord-bot-docs" },
+        { icon: "patreon", label: "Patreon", href: "https://www.patreon.com/rpgsessions" },
+      ],
       sidebar: [
         // RPG Sessions Platform Section
         {
