@@ -1,47 +1,293 @@
 ---
-title: RPG Sessions Discord Bot Documentation
-description: Need help with our Discord bot? Find all the information you need here.
+title: RPG Sessions Documentation
+description: Your complete guide to the RPG Sessions ecosystem — Discord Bot, Platform, and Maps.
 template: splash
 hero:
+  title: |
+    <span class="hero-title-main">RPG Sessions</span>
+    <span class="hero-title-sub">Documentation</span>
+  tagline: Everything you need to bring your tabletop adventures online
   image:
     file: ../../assets/mark.png
   actions:
-    - text: Getting Started
-      link: /discord-bot-docs/guides/how-to
-      icon: right-arrow
-    - text: Command Help
-      link: /discord-bot-docs/reference/character
-      icon: right-arrow
-      variant: secondary
-    - text: Add me to your server
-      link: https://discord.com/api/oauth2/authorize?client_id=534606682928578572&permissions=309774806080&scope=bot
-      icon: discord
-      variant: minimal
+    - text: Visit RPG Sessions
+      link: https://rpgsessions.com
+      icon: external
 ---
 
 import { Card, CardGrid, LinkCard } from "@astrojs/starlight/components";
 
-## Common Tasks
+<div class="product-sections">
+
+## Choose Your Path
+
+<p class="section-intro">
+RPG Sessions provides a complete ecosystem for running Star Wars RPG and Genesys tabletop games online. Select the documentation you need below.
+</p>
+
+<div class="product-grid">
+  <a href="/discord-bot-docs/rpg-sessions" class="product-card product-card--platform">
+    <div class="product-card__icon">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+      </svg>
+    </div>
+    <div class="product-card__content">
+      <h3 class="product-card__title">RPG Sessions</h3>
+      <p class="product-card__description">Create game tables, build characters, manage campaigns, and play with friends anywhere.</p>
+      <span class="product-card__cta">Explore Platform →</span>
+    </div>
+  </a>
+
+  <a href="/discord-bot-docs/discord-bot" class="product-card product-card--bot">
+    <div class="product-card__icon">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+        <path d="M19.27 5.33C17.94 4.71 16.5 4.26 15 4a.09.09 0 0 0-.07.03c-.18.33-.39.76-.53 1.09a16.09 16.09 0 0 0-4.8 0c-.14-.34-.35-.76-.54-1.09c-.01-.02-.04-.03-.07-.03c-1.5.26-2.93.71-4.27 1.33c-.01 0-.02.01-.03.02c-2.72 4.07-3.47 8.03-3.1 11.95c0 .02.01.04.03.05c1.8 1.32 3.53 2.12 5.24 2.65c.03.01.06 0 .07-.02c.4-.55.76-1.13 1.07-1.74c.02-.04 0-.08-.04-.09c-.57-.22-1.11-.48-1.64-.78c-.04-.02-.04-.08-.01-.11c.11-.08.22-.17.33-.25c.02-.02.05-.02.07-.01c3.44 1.57 7.15 1.57 10.55 0c.02-.01.05-.01.07.01c.11.09.22.17.33.26c.04.03.04.09-.01.11c-.52.31-1.07.56-1.64.78c-.04.01-.05.06-.04.09c.32.61.68 1.19 1.07 1.74c.03.01.06.02.09.01c1.72-.53 3.45-1.33 5.25-2.65c.02-.01.03-.03.03-.05c.44-4.53-.73-8.46-3.1-11.95c-.01-.01-.02-.02-.04-.02zM8.52 14.91c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.84 2.12-1.89 2.12zm6.97 0c-1.03 0-1.89-.95-1.89-2.12s.84-2.12 1.89-2.12c1.06 0 1.9.96 1.89 2.12c0 1.17-.83 2.12-1.89 2.12z"/>
+      </svg>
+    </div>
+    <div class="product-card__content">
+      <h3 class="product-card__title">Discord Bot</h3>
+      <p class="product-card__description">Roll dice, manage characters, track initiative, and sync your game table with Discord.</p>
+      <span class="product-card__cta">Get Started →</span>
+    </div>
+  </a>
+
+  <a href="/discord-bot-docs/maps" class="product-card product-card--maps">
+    <div class="product-card__icon">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="48" height="48">
+        <path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5c0 .28.22.5.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5c0-.28-.22-.5-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/>
+      </svg>
+    </div>
+    <div class="product-card__content">
+      <h3 class="product-card__title">Maps</h3>
+      <p class="product-card__description">Create dynamic battle maps, manage fog of war, and bring your tactical encounters to life.</p>
+      <span class="product-card__cta">Build Maps →</span>
+    </div>
+  </a>
+</div>
+
+</div>
+
+<div class="quick-links-section">
+
+## Quick Links
 
 <CardGrid>
   <LinkCard
-    title="Pair game table to Discord server"
-    href="/discord-bot-docs/guides/connecting-to-game-table"
-    description="Learn how to connect your game table to your Discord server and verify the connection."
+    title="Add the Discord Bot to Your Server"
+    href="https://discord.com/api/oauth2/authorize?client_id=534606682928578572&permissions=309774806080&scope=bot"
+    description="Invite the RPG Sessions Discord bot to your server in one click."
   />
   <LinkCard
-    title="Send in-character messages"
-    href="/discord-bot-docs/reference/in-character#ic-message"
-    description="Send messages as your characters to role-play in your server!"
+    title="Connect Your Account"
+    href="/discord-bot-docs/guides/connect-sessions-account"
+    description="Link your RPG Sessions account to Discord to access your characters."
   />
   <LinkCard
-    title="Sync table messages and events to Discord"
-    href="/discord-bot-docs/guides/sync-game-table-events"
-    description="Learn how to synchronize game events and messages to your Discord server."
+    title="Command Reference"
+    href="/discord-bot-docs/reference/character"
+    description="Full documentation for all Discord bot commands."
   />
   <LinkCard
-    title="Troubleshooting"
-    href="/discord-bot-docs/misc/debug#debug-info"
-    description="Is the bot not behaving how you expect it should? Troubleshoot with the `/debug info` command!"
+    title="Community Discord"
+    href="https://discord.gg/DfEkRzUbjk"
+    description="Get help, share feedback, and connect with other players."
   />
 </CardGrid>
+
+</div>
+
+<style>{`
+  /* Custom properties extending Starlight's theme */
+  :root {
+    --rpg-accent: #4169e1;
+    --rpg-accent-glow: rgba(65, 105, 225, 0.3);
+    --rpg-gold: #c9a227;
+    --rpg-surface: rgba(255, 255, 255, 0.03);
+    --rpg-border: rgba(255, 255, 255, 0.08);
+  }
+
+  /* Hero title styling */
+  .hero-title-main {
+    display: block;
+    font-size: 1.1em;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-title-sub {
+    display: block;
+    font-size: 0.6em;
+    font-weight: 400;
+    opacity: 0.7;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 0.25em;
+  }
+
+  /* Product sections container */
+  .product-sections {
+    margin-top: 2rem;
+  }
+
+  .product-sections h2 {
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .section-intro {
+    text-align: center;
+    opacity: 0.8;
+    max-width: 600px;
+    margin: 0 auto 2.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  /* Product cards grid */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  /* Individual product card */
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--rpg-border);
+    background: var(--rpg-surface);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--card-accent, var(--rpg-accent)), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .product-card:hover {
+    border-color: var(--card-accent, var(--rpg-accent));
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px -12px var(--rpg-accent-glow);
+  }
+
+  .product-card:hover::before {
+    opacity: 1;
+  }
+
+  /* Card variants */
+  .product-card--bot {
+    --card-accent: #5865f2;
+  }
+
+  .product-card--platform {
+    --card-accent: var(--rpg-gold);
+  }
+
+  .product-card--maps {
+    --card-accent: #22c55e;
+  }
+
+  /* Card icon */
+  .product-card__icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--card-accent, var(--rpg-accent)) 0%, transparent 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+    opacity: 0.9;
+  }
+
+  .product-card__icon svg {
+    width: 32px;
+    height: 32px;
+    opacity: 0.9;
+  }
+
+  /* Card content */
+  .product-card__title {
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin: 0 0 0.75rem;
+    letter-spacing: -0.01em;
+  }
+
+  .product-card__description {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    opacity: 0.75;
+    margin: 0 0 1.25rem;
+    flex-grow: 1;
+  }
+
+  .product-card__cta {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--card-accent, var(--rpg-accent));
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    transition: gap 0.2s ease;
+  }
+
+  .product-card:hover .product-card__cta {
+    gap: 0.5rem;
+  }
+
+  /* Quick links section */
+  .quick-links-section {
+    margin-top: 1rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--rpg-border);
+  }
+
+  .quick-links-section h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Light theme adjustments */
+  :root:not([data-theme='dark']) {
+    --rpg-surface: rgba(0, 0, 0, 0.02);
+    --rpg-border: rgba(0, 0, 0, 0.08);
+    --rpg-accent-glow: rgba(65, 105, 225, 0.15);
+  }
+
+  :root:not([data-theme='dark']) .product-card__icon {
+    background: linear-gradient(135deg, color-mix(in srgb, var(--card-accent, var(--rpg-accent)) 20%, white) 0%, transparent 100%);
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    .product-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .product-card {
+      padding: 1.5rem;
+    }
+
+    .section-intro {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  }
+`}</style>

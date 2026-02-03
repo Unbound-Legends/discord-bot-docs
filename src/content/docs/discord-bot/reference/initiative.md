@@ -1,6 +1,7 @@
 ---
 title: "/initiative"
 description: The initiative group allows you to handle initiative for your current game
+slug: reference/initiative
 ---
 
 The `/initiative` command is used to manage initiative in a game, which determines the order in which players, NPCs, or adversaries take actions. This command provides various subcommands to manage and control the flow of initiative rounds efficiently, such as starting, rolling, viewing, or modifying the initiative order.

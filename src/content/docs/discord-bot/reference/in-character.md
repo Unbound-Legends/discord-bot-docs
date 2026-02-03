@@ -1,6 +1,7 @@
 ---
 title: /ic
 description: The ic command group allows you to send in-character messages
+slug: reference/in-character
 ---
 
 ## Subcommands

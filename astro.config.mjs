@@ -9,41 +9,60 @@ export default defineConfig({
   trailingSlash: "never",
   integrations: [
     starlight({
-      title: "RPG Sessions Discord Bot",
+      title: "RPG Sessions Documentation",
       favicon: "mark.png",
       logo: { src: "./src/assets/mark.png" },
-      social: {
-        discord: "https://discord.gg/DfEkRzUbjk",
-        github: "https://github.com/Unbound-Legends/discord-bot-docs",
-      },
+      social: [
+        { icon: "discord", label: "Discord", href: "https://discord.gg/DfEkRzUbjk" },
+        { icon: "github", label: "GitHub", href: "https://github.com/Unbound-Legends/discord-bot-docs" },
+        { icon: "patreon", label: "Patreon", href: "https://www.patreon.com/rpgsessions" },
+      ],
       sidebar: [
+        // RPG Sessions Platform Section
         {
-          label: "Guides",
-          // autogenerate: { directory: "guides" },
+          label: "RPG Sessions",
+          collapsed: true,
+          autogenerate: { directory: "rpg-sessions" },
+        },
+        // Discord Bot Section
+        {
+          label: "Discord Bot",
+          collapsed: true,
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Introduction", slug: "guides/how-to" },
+            { label: "Overview", slug: "discord-bot" },
             {
-              label: "Connect your Account",
-              slug: "guides/connect-sessions-account",
+              label: "Guides",
+              items: [
+                { label: "Introduction", slug: "guides/how-to" },
+                {
+                  label: "Connect your Account",
+                  slug: "guides/connect-sessions-account",
+                },
+                {
+                  label: "Connecting a Game Table",
+                  slug: "guides/connecting-to-game-table",
+                },
+                {
+                  label: "Synchronize Game Table Events",
+                  slug: "guides/sync-game-table-events",
+                },
+              ],
             },
             {
-              label: "Connecting a Game Table",
-              slug: "guides/connecting-to-game-table",
+              label: "Command Reference",
+              autogenerate: { directory: "discord-bot/reference" },
             },
             {
-              label: "Synchronize Game Table Events",
-              slug: "guides/sync-game-table-events",
+              label: "Other Commands",
+              autogenerate: { directory: "discord-bot/misc" },
             },
           ],
         },
+        // Maps Section
         {
-          label: "Command Reference",
-          autogenerate: { directory: "reference" },
-        },
-        {
-          label: "Other Commands",
-          autogenerate: { directory: "misc" },
+          label: "Maps",
+          collapsed: true,
+          autogenerate: { directory: "maps" },
         },
       ],
       components: {

@@ -1,20 +1,17 @@
 ---
-// Component override suggested here:
-// https://github.com/withastro/starlight/discussions/1517#discussioncomment-8503118 
-// Copied and pasted component from:
-// https://github.com/withastro/starlight/blob/main/packages/starlight/components/SiteTitle.astro
+// Component override to link the site title back to the main RPG Sessions website
+// Based on: https://github.com/withastro/starlight/blob/main/packages/starlight/components/SiteTitle.astro
 import { logos } from 'virtual:starlight/user-images';
 import config from 'virtual:starlight/user-config';
-import type { Props } from '../props';
-const { siteTitle, siteTitleHref } = Astro.props;
+const { siteTitle } = Astro.locals.starlightRoute;
 ---
 
-<a href={"https://rpgsessions.com"} class="site-title sl-flex">
+<a href="https://rpgsessions.com" class="site-title sl-flex">
 	{
 		config.logo && logos.dark && (
 			<>
 				<img
-					class:list={{ 'light:sl-hidden': !('src' in config.logo) }}
+					class:list={{ 'light:sl-hidden print:hidden': !('src' in config.logo) }}
 					alt={config.logo.alt}
 					src={logos.dark.src}
 					width={logos.dark.width}
@@ -23,7 +20,7 @@ const { siteTitle, siteTitleHref } = Astro.props;
 				{/* Show light alternate if a user configure both light and dark logos. */}
 				{!('src' in config.logo) && (
 					<img
-						class="dark:sl-hidden"
+						class="dark:sl-hidden print:block"
 						alt={config.logo.alt}
 						src={logos.light?.src}
 						width={logos.light?.width}
@@ -33,27 +30,32 @@ const { siteTitle, siteTitleHref } = Astro.props;
 			</>
 		)
 	}
-	<span class:list={{ 'sr-only': config.logo?.replacesTitle }}>
+	<span class:list={{ 'sr-only': config.logo?.replacesTitle }} translate="no">
 		{siteTitle}
 	</span>
 </a>
 
 <style>
-	.site-title {
-		align-items: center;
-		gap: var(--sl-nav-gap);
-		font-size: var(--sl-text-h4);
-		font-weight: 600;
-		color: var(--sl-color-text-accent);
-		text-decoration: none;
-		white-space: nowrap;
-	}
-	img {
-		height: calc(var(--sl-nav-height) - 2 * var(--sl-nav-pad-y));
-		width: auto;
-		max-width: 100%;
-		object-fit: contain;
-		object-position: 0 50%;
+	@layer starlight.core {
+		.site-title {
+			align-items: center;
+			gap: var(--sl-nav-gap);
+			font-size: var(--sl-text-h4);
+			font-weight: 600;
+			color: var(--sl-color-text-accent);
+			text-decoration: none;
+			white-space: nowrap;
+			min-width: 0;
+		}
+		span {
+			overflow: hidden;
+		}
+		img {
+			height: calc(var(--sl-nav-height) - 2 * var(--sl-nav-pad-y));
+			width: auto;
+			max-width: 100%;
+			object-fit: contain;
+			object-position: 0 50%;
+		}
 	}
 </style>
-
