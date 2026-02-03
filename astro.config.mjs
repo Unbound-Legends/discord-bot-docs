@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 // https://astro.build/config
 export default defineConfig({
   site: "https://rpgsessions.com",
-  base: "/discord-bot-docs",
+  base: "/docs",
   trailingSlash: "never",
   integrations: [
     starlight({

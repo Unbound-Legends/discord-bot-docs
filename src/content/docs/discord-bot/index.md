@@ -10,9 +10,9 @@ The RPG Sessions Discord Bot brings your tabletop gaming experience directly int
 
 New to the Discord Bot? Start here:
 
-1. **[Introduction](/discord-bot-docs/guides/how-to)** — Learn what the bot can do and how to use it
+1. **[Introduction](/docs/guides/how-to)** — Learn what the bot can do and how to use it
 2. **[Add the Bot](https://discord.com/api/oauth2/authorize?client_id=534606682928578572&permissions=309774806080&scope=bot)** — Invite the bot to your Discord server
-3. **[Connect Your Account](/discord-bot-docs/guides/connect-sessions-account)** — Link your RPG Sessions account to access your characters
+3. **[Connect Your Account](/docs/guides/connect-sessions-account)** — Link your RPG Sessions account to access your characters
 
 ## Key Features
 
@@ -26,12 +26,12 @@ New to the Discord Bot? Start here:
 
 | Command | Description |
 |---------|-------------|
-| [`/dice roll`](/discord-bot-docs/reference/dice) | Roll dice with modifiers and skill shortcuts |
-| [`/character view`](/discord-bot-docs/reference/character#character-view) | Display your character's information |
-| [`/initiative`](/discord-bot-docs/reference/initiative) | Manage combat initiative |
-| [`/ic message`](/discord-bot-docs/reference/in-character#ic-message) | Send in-character messages |
+| [`/dice roll`](/docs/reference/dice) | Roll dice with modifiers and skill shortcuts |
+| [`/character view`](/docs/reference/character#character-view) | Display your character's information |
+| [`/initiative`](/docs/reference/initiative) | Manage combat initiative |
+| [`/ic message`](/docs/reference/in-character#ic-message) | Send in-character messages |
 
 ## Need Help?
 
-- **[Troubleshooting](/discord-bot-docs/misc/debug)** — Use `/debug info` to diagnose common issues
+- **[Troubleshooting](/docs/misc/debug)** — Use `/debug info` to diagnose common issues
 - **[Community Discord](https://discord.gg/DfEkRzUbjk)** — Get help from the community

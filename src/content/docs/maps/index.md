@@ -29,5 +29,5 @@ Documentation for Maps is being developed. In the meantime:
 
 ## Related Documentation
 
-- [RPG Sessions Platform](/discord-bot-docs/rpg-sessions) — Learn about game tables and character management
-- [Discord Bot](/discord-bot-docs/guides/how-to) — Connect your sessions to Discord
+- [RPG Sessions Platform](/docs/rpg-sessions) — Learn about game tables and character management
+- [Discord Bot](/docs/guides/how-to) — Connect your sessions to Discord

@@ -21,9 +21,9 @@ RPG Sessions gives you everything you need to play narrative dice games online o
 Documentation for the RPG Sessions platform is being developed. In the meantime:
 
 - **New to RPG Sessions?** [Visit the main site](https://rpgsessions.com) to create your account and explore the platform
-- **Need help with the Discord Bot?** Check out our [Discord Bot documentation](/discord-bot-docs/guides/how-to)
+- **Need help with the Discord Bot?** Check out our [Discord Bot documentation](/docs/guides/how-to)
 - **Have questions?** Join our [community Discord](https://discord.gg/DfEkRzUbjk) for support
 
 ## Connect with Discord
 
-The RPG Sessions Discord Bot lets you access your characters and game tables directly from Discord. Once you've set up your account on the platform, you can [connect it to Discord](/discord-bot-docs/guides/connect-sessions-account) to roll dice, view character sheets, and sync game events.
+The RPG Sessions Discord Bot lets you access your characters and game tables directly from Discord. Once you've set up your account on the platform, you can [connect it to Discord](/docs/guides/connect-sessions-account) to roll dice, view character sheets, and sync game events.
