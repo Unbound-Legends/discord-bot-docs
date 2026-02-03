@@ -20,13 +20,16 @@ RUN echo 'events { worker_connections 1024; }' > /etc/nginx/nginx.conf && \
             add_header Content-Type text/plain; \
             return 200 "healthy\n"; \
         } \
-        location / { \
-            root /usr/share/nginx/html; \
+        location /discord-bot-docs/ { \
+            alias /usr/share/nginx/html/; \
             index index.html index.htm; \
             try_files $uri $uri/index.html =404; \
             expires 1y; \
             add_header Cache-Control "public, no-transform"; \
             add_header ETag "'$BUILD_VERSION'"; \
+        } \
+        location = /discord-bot-docs { \
+            return 301 /discord-bot-docs/; \
         } \
     } \
 }' >> /etc/nginx/nginx.conf
