@@ -62,7 +62,25 @@ export default defineConfig({
         {
           label: "Maps",
           collapsed: true,
-          autogenerate: { directory: "maps" },
+          items: [
+            { label: "Overview", slug: "maps" },
+            {
+              label: "Guides",
+              items: [
+                { label: "Getting Started", slug: "maps/guides/getting-started" },
+                { label: "Running Encounters", slug: "maps/guides/running-encounters" },
+                { label: "Advanced Features", slug: "maps/guides/advanced-features" },
+              ],
+            },
+            {
+              label: "Features",
+              autogenerate: { directory: "maps/features" },
+            },
+            {
+              label: "Reference",
+              autogenerate: { directory: "maps/reference" },
+            },
+          ],
         },
       ],
       components: {
