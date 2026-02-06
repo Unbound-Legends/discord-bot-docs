@@ -68,8 +68,6 @@ export default defineConfig({
               label: "Guides",
               items: [
                 { label: "Getting Started", slug: "maps/guides/getting-started" },
-                { label: "Running Encounters", slug: "maps/guides/running-encounters" },
-                { label: "Advanced Features", slug: "maps/guides/advanced-features" },
               ],
             },
             {
