@@ -6,14 +6,14 @@ description: Settings and tools available only to Game Masters
 As the Game Master, you have access to a set of controls that players don't see.
 These let you manage what's visible on the map, move players between pages,
 and keep things running smoothly behind the scenes. Everything here syncs in
-real-time—when you hide an asset or summon your players, they see the result
+real-time: when you hide an asset or summon your players, they see the result
 instantly.
 
 ## Asset Visibility
 
 The GM panel gives you two tools for controlling how players can see and interact
 with individual assets on the map: **Hide** and **Restrict**. These work on any
-selected asset—tokens, images, map tiles, anything.
+selected asset: tokens, images, map tiles, anything.
 
 To access these controls:
 
@@ -26,7 +26,7 @@ To access these controls:
 ### Hiding Assets
 
 Hiding an asset makes it completely invisible to players. They can't see it,
-click on it, or interact with it in any way—as far as they're concerned, it
+click on it, or interact with it in any way. As far as they're concerned, it
 doesn't exist.
 
 You still see hidden assets, but they're shown at reduced opacity so you can
@@ -112,14 +112,14 @@ looking at the right spot.
 3. Click **Set current view as default**
 
 This saves both the camera position and zoom level. It also marks this page as
-the starting page for the game—when someone joins the map, this is where they
+the starting page for the game. When someone joins the map, this is where they
 land.
 
 ## Map Management
 
 Map management lets you organize your maps into multiple pages and folders.
-This is how you run campaigns with different locations—a tavern, a dungeon, an
-overworld map—all within the same game.
+This is how you run campaigns with different locations. A tavern, a dungeon, an
+overworld map, all within the same game.
 
 To open the map management panel, click the **map management** button in the
 bottom-left of the screen. From here you can:
@@ -156,7 +156,7 @@ for excellent pre-planning.
 
 Some GM-specific features have their own dedicated pages:
 
-- **[Fog of War](/docs/maps/features/fog-of-war)** — draw and erase fog areas
+- **[Fog of War](/docs/maps/features/fog-of-war)**: draw and erase fog areas
   to control what players can see on the map
-- **[Layers](/docs/maps/features/layers)** — organize assets into layers with
+- **[Layers](/docs/maps/features/layers)**: organize assets into layers with
   per-layer visibility and locking

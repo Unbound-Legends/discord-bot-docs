@@ -4,7 +4,7 @@ description: Documentation for the RPG Sessions Discord Bot
 slug: discord-bot
 ---
 
-The RPG Sessions Discord Bot brings your tabletop gaming experience directly into your Discord server. Roll dice, manage characters, track initiative, and synchronize your game table—all without leaving Discord.
+The RPG Sessions Discord Bot brings your tabletop gaming experience directly into your Discord server. Roll dice, manage characters, track initiative, and synchronize your game table, all without leaving Discord.
 
 ## Getting Started
 

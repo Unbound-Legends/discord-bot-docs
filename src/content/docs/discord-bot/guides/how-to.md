@@ -19,7 +19,9 @@ Here are some of the reasons why the RPG Sessions bot is useful:
 - **Rolling Dice**: Forget about physical dice! You can roll any dice you need directly in the chat. Just type a command, and the bot will do the rolling for you, complete with results and modifiers.
 - **Tracking Initiative**: During combat, the bot can manage turn orders so everyone knows when it's their time to act.
 - **Character Management**: Players can easily check and share their character stats and information without needing to open multiple apps or windows.
-- **GM Tools**: The bot helps the GM by managing enemies, setting up challenges, and keeping track of important game stats—so they can focus on running the adventure.
+- **GM Tools**: The bot helps the GM by managing enemies, setting up 
+  challenges, and keeping track of important game stats, so they can focus 
+  on running the adventure.
 
 ### How to Use the RPG Sessions Bot
 
@@ -49,7 +51,9 @@ If you want to add the RPG Sessions bot to your server, you'll need to follow th
 
 ### Get Started Today
 
-The RPG Sessions bot is here to make your gameplay experience smoother and more immersive. You don’t need to be a Discord expert to use it—just try out some of the basic commands, and soon you’ll see how much easier it makes everything. Whether you’re rolling dice, tracking initiative, or just sharing your character’s latest achievements, the RPG Sessions bot is ready to help.
+The RPG Sessions bot is here to make your gameplay experience smoother and 
+more immersive. You don’t need to be a Discord expert to use it. Just try 
+out some of the basic commands, and soon you’ll see how much easier it makes everything. Whether you’re rolling dice, tracking initiative, or just sharing your character’s latest achievements, the RPG Sessions bot is ready to help.
 
 Ready to jump in? Start by [adding the bot](https://discord.com/api/oauth2/authorize?client_id=534606682928578572&permissions=309774806080&scope=bot) and typing `/dice roll yrpg` in your server, and let the adventure begin!
 

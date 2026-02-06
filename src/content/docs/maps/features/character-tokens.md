@@ -19,7 +19,7 @@ which automatically displays all characters from your RPG Sessions game.
 To add a character token to the map:
 
 1. Open the asset manager
-2. Find the **At the Table** section—this shows all characters in the current game
+2. Find the **At the Table** section, this shows all characters in the current game
    player characters)
 3. Click on the character you want to add to the map
 
@@ -29,7 +29,7 @@ and if the character has wounds or strain, the health bars display automatically
 ![The At the Table section in the asset manager showing game characters](../../../../assets/guides/maps/features/character-tokens/at-the-table.png)
 
 Once placed, the token stays linked to the character. Changes to wounds, strain, or
-visibility sync automatically—if you update the character through the bot or web
+visibility sync automatically. If you update the character through the bot or web
 interface, the token updates in real-time for everyone at the table.
 
 ## Stats Display
@@ -42,7 +42,7 @@ Linked tokens show two health bars directly below the token image:
 ![Two characters with strain and wound bars visible, one empty and one 
 partially filled to show each state](../../../../assets/guides/maps/features/character-tokens/stats.png)
 
-The bars scale proportionally with the token size—larger tokens get larger bars.
+The bars scale proportionally with the token size. Larger tokens get larger bars.
 When wounds or strain change, the bars animate smoothly rather than jumping to the
 new value, making it easy to see damage being applied during combat.
 
@@ -111,7 +111,7 @@ Labels are:
 - Updated automatically when character names change
 - Positioned in screen space, so they maintain consistent size regardless of zoom
 
-Labels respect visibility settings—if a character is set to "Visible" level, players
+Labels respect visibility settings. If a character is set to "Visible" level, players
 see "?????" instead of the actual name. Labels also hide when:
 
 - The token is under fog of war (for players)
@@ -119,7 +119,7 @@ see "?????" instead of the actual name. Labels also hide when:
 
 ## Flipping Tokens
 
-Sometimes you need a token to face the other direction—maybe your archer token
+Sometimes you need a token to face the other direction. Maybe your archer token
 faces left but you want them facing the enemy on the right. Rather than uploading
 a mirrored image, you can flip tokens directly on the map.
 
@@ -130,6 +130,6 @@ a mirrored image, you can flip tokens directly on the map.
 
 These work on the currently selected token. If you have multiple tokens selected,
 all of them flip at once, mirroring around the center of the selection. This is
-useful for arranging formations—select a row of soldiers and flip them all to
+useful for arranging formations: select a row of soldiers and flip them all to
 face the opposite direction in one action. This is also extremely useful 
 for tiling maps, especially when creating repeating patterns or formations.
