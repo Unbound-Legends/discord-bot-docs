@@ -158,5 +158,5 @@ Some GM-specific features have their own dedicated pages:
 
 - **[Fog of War](/docs/maps/features/fog-of-war)** — draw and erase fog areas
   to control what players can see on the map
-- **Layers** — organize assets into layers with per-layer visibility and
-  locking (page coming soon)
+- **[Layers](/docs/maps/features/layers)** — organize assets into layers with
+  per-layer visibility and locking
