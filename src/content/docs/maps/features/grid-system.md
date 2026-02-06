@@ -183,7 +183,7 @@ quickly without fiddly manual alignment.
 - **Adjust opacity for readability**: If the grid is hard to see, increase the
   color's opacity. If it's too distracting, lower it. You can also change the
   color to contrast with your map's palette.
-- **Different grids for different pages** — Since grid settings are per-page, you
+- **Different grids for different pages**: Since grid settings are per-page, you
   can use a square grid for your dungeon maps and a hex grid for the overworld,
   all within the same session.
 - **Lock your background layer**: When building tiled maps, [lock the layer](/docs/maps/features/layers#locking-layers)
