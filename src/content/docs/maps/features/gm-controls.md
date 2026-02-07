@@ -94,12 +94,30 @@ until players move between pages again.
 ### The Presence Indicator
 
 At the top-right of the screen, the presence indicator shows how many users are
-connected. As a GM, you also see a location button here that works the same way
-as the summon alert; click it to bring everyone to your current view. When 
-players
-are on different maps, this button pulses to get your attention. You can 
-use it in place of the summon alert button if you've already dismissed the 
-popup.
+connected. This indicator is visible to everyone, not just GMs.
+
+**Hovering** over the presence dot opens a tooltip listing all other connected
+users. Each user row shows:
+
+- A **colored dot**: green if they're on the same map page as you, amber if
+  they're viewing a different page
+- Their **character name**, pulled from the game's character data
+- A **[GM] tag** next to any Game Masters
+
+GMs are sorted to the top of the list, with everyone else in alphabetical order.
+If a user doesn't have a character in the game, they'll appear as "Game Master"
+or "Player" based on their role.
+
+On touch devices, you can **tap** the indicator to pin the tooltip open. Tap
+again to dismiss it.
+
+![The presence indicator from a player's perspective showing the GM online](../../../../assets/guides/maps/features/gm-controls/presence-indicator.png)
+
+As a GM, you also see a **location button** next to the indicator. This works
+the same way as the summon alert — click it to bring everyone to your current
+view. When players are on different map pages, this button pulses to get your
+attention. You can use it in place of the summon alert button if you've already
+dismissed the banner.
 
 ## Setting the Default View
 

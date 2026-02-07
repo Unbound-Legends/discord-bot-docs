@@ -84,8 +84,9 @@ Click it to smoothly animate back to the default view position and zoom.
 ### Presence Indicator
 
 When multiple people are connected to the same map, a green indicator appears
-showing how many users are online in the upper-right. GMs also see a summon 
-button here to bring all players to their current view.
+in the upper-right showing how many users are online. Hover over it to see a
+list of who's connected and whether they're on the same map page as you. GMs
+also see a summon button here to bring all players to their current view.
 
 ## Navigating the Map
 
