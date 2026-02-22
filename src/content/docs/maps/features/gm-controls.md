@@ -68,6 +68,39 @@ players can see.
 Place all your assets with the checkbox on, then selectively reveal things as
 the party explores.
 
+## Token Ownership
+
+By default, any player can select and move any token on the map. This is fine
+for most sessions, but sometimes you want tighter control. Maybe a player keeps
+accidentally nudging another player's token, or you want to make sure nobody
+moves a token except its owner.
+
+### Restrict Token Movement to Owners
+
+This is a per-page setting that limits token interaction based on character
+ownership. When enabled, players can only select and move tokens linked to
+their own character. The GM can still move everything.
+
+To enable it:
+
+1. Open the **Settings** panel (gear icon)
+2. Under the **General** tab, check **Restrict Token Movement to Owners**
+
+The setting syncs to all players immediately and is saved per-page, so you can
+have it enabled for a combat map and disabled for a social scene.
+
+With this setting enabled:
+
+- Players can select and move tokens linked to their own character
+- Players cannot select or move tokens belonging to other players
+- Tokens not linked to any character can still be moved by anyone
+- The GM can always select and move any token
+
+This works alongside the per-asset [Restrict](#restricting-assets) button.
+Use the per-page setting when you want general ownership rules across the
+board, and use per-asset Restrict to lock down specific assets entirely from
+all players.
+
 ## Summoning Players
 
 When players are viewing a different map page than you, or you want everyone
@@ -165,10 +198,9 @@ encounter assets directly to the map without uploading images manually.
 You can search and filter encounters by name, then click into an encounter to
 see its available assets and add them to the map.
 
-The encounter system is a powerful way to setup a collection of NPCs on 
-your game table and quickly add them to your map and the table when it's 
-time fro them to jump into action. Combine encounters with multiple maps 
-for excellent pre-planning.
+Use encounters to prepare a set of NPCs ahead of time and drop them into your
+map the moment they enter the scene. Combine this with multiple map pages to
+set up entire sessions in advance.
 
 ## Related Features
 

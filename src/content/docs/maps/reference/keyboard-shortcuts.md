@@ -88,7 +88,13 @@ On hex grids, the arrow keys map to the nearest hex direction.
 ### Grid Snapping
 
 Hold **Shift** while dragging an asset to snap it to the nearest grid cell. This
-works with single assets and multi-selections alike. See
+works with single assets and multi-selections alike.
+
+Hold **Shift** while resizing an asset (with the Resize tool) to snap the asset's
+size to grid cell increments. The asset scales in steps that align its edges to
+grid boundaries, making it easy to size tokens to cover an exact number of cells.
+
+Both require the [grid](/docs/maps/features/grid-system) to be enabled. See
 [Grid System](/docs/maps/features/grid-system#snapping-to-the-grid) for more
 details on snapping behavior.
 

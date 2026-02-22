@@ -107,6 +107,23 @@ On hex grids, the arrow keys map to the nearest hex direction, so pressing
 left or right moves along the hex row and pressing up or down moves
 diagonally between rows in the way you'd expect.
 
+### Shift+Resize Snapping
+
+Hold **Shift** while resizing an asset with the Resize tool to snap its size
+to grid increments. Instead of scaling freely, the asset grows or shrinks so
+that its edges align to grid cell boundaries.
+
+This is useful when sizing tokens or props to cover an exact number of grid
+cells. A creature that needs to fill a 2x2 area, for example, can be resized
+to fit those cells precisely by holding Shift as you drag the resize handle.
+
+The snapping uses the smaller of the grid cell's width and height to calculate
+increments, which keeps things aligned on both axes. Each asset snaps
+independently when multiple assets are selected and resized together.
+
+The grid must be enabled for this to work. Without a grid, Shift has no
+effect during resizing.
+
 ## Grid Tools
 
 When you have assets selected and the grid is enabled, the **Grid Tools** panel
