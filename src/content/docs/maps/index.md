@@ -15,6 +15,7 @@ Sessions Maps gives you everything you need for tactical gameplay:
 
 - **Real-time Collaboration**: Every change syncs instantly. Move a token, draw a line, reveal fog — your players see it the moment it happens.
 - **[Character Tokens](/docs/maps/features/character-tokens)**: Add tokens linked to your RPG Sessions characters. They display wound and strain bars, character names, and minion group counters, all updating in real-time.
+- **[Quick Character Sheet](/docs/maps/features/character-sheet)** *(Beta)*: Select a character token to open a side panel showing stats with inline editing for wounds and strain without leaving the map.
 - **[Fog of War](/docs/maps/features/fog-of-war)**: Draw opaque fog areas to hide parts of the map from players. Erase fog room by room as the party explores.
 - **[Layers](/docs/maps/features/layers)**: Organize assets across multiple layers with independent visibility, ordering, and locking. Set layers to GM-only for prep work players can't see.
 - **[Grid System](/docs/maps/features/grid-system)**: Overlay square or hex grids with snap-to-grid positioning, arrow key movement, and tools for building tiled maps.

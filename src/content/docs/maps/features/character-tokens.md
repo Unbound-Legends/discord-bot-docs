@@ -117,6 +117,16 @@ see "?????" instead of the actual name. Labels also hide when:
 - The token is under fog of war (for players)
 - The token is on a hidden layer
 
+## Quick Character Sheet
+
+When you select a character token, you can open a side panel that shows the
+character's full stats with inline editing for wounds and strain. This lets you
+track damage during combat without leaving the map.
+
+This feature is in beta and disabled by default. See
+[Quick Character Sheet](/docs/maps/features/character-sheet) for details on
+enabling it and how it works.
+
 ## Flipping Tokens
 
 Sometimes you need a token to face the other direction. Maybe your archer token
