@@ -117,15 +117,14 @@ see "?????" instead of the actual name. Labels also hide when:
 - The token is under fog of war (for players)
 - The token is on a hidden layer
 
-## Quick Character Sheet
+## Character and Vehicle Sheets
 
-When you select a character token, you can open a side panel that shows the
-character's full stats with inline editing for wounds and strain. This lets you
-track damage during combat without leaving the map.
+When you select a character or vehicle token, a side panel opens showing
+the full stat block with inline editing for wounds, strain, hull trauma,
+and more. This lets you track stats during play without leaving the map.
 
-This feature is in beta and disabled by default. See
-[Quick Character Sheet](/docs/maps/features/character-sheet) for details on
-enabling it and how it works.
+See [Character and Vehicle Sheets](/docs/maps/features/sheets) for the
+full breakdown of what the panel shows and how to use it.
 
 ## Flipping Tokens
 
