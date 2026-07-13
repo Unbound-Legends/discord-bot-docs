@@ -1,99 +1,54 @@
 ---
 title: Spritesheet Import
-description: Split spritesheets into individual tiles and upload them to your asset library
+description: Split a spritesheet into individual Asset Library images
 ---
 
-If you work with tiled map art, you've probably downloaded spritesheet images
-where dozens of tiles are packed into a single file. Rather than cutting them
-apart in an image editor, you can import spritesheets directly in Maps and
-split them into individual assets automatically.
+The spritesheet importer cuts a packed image into separate tiles and uploads them to your Asset Library. Use it for terrain sets, token sheets, and other art that would otherwise need to be split in an image editor.
 
 ![An example of using Spritesheet Importing](../../../../assets/guides/maps/features/spritesheet-import/spritesheet-import-preview.gif)
 
-## Opening the Spritesheet Tool
+## Open the Importer
 
-The spritesheet importer lives in the asset manager:
+1. Open **Assets**.
+2. Select **Upload**.
+3. Open the **Spritesheet** tab.
+4. Choose an image.
 
-1. Open the **Asset Manager** panel
-2. Navigate to the **Upload** tab
-3. Switch to the **Spritesheet** sub-tab
+The importer shows the image with a cutting grid and a preview of the resulting tiles.
 
-You'll see a drop zone prompting you to select an image.
+## Align the Cutting Grid
 
-## Selecting a Spritesheet Image
+Set the values that match the source image:
 
-Click the drop zone or the **Choose Image** button to open a file picker,
-then select a spritesheet image.
+- **Tile Width** and **Tile Height** set each tile's pixel dimensions.
+- **Columns** and **Rows** set how many tiles the image contains.
+- **Spacing** accounts for gaps between tiles and defaults to `0`.
 
-Once loaded, the tool displays a preview of your spritesheet with a grid
-overlay showing where the tiles will be cut.
+Changing the tile dimensions recalculates the row and column counts. Changing the counts recalculates the dimensions. Use the preview grid to check the result before uploading.
 
-## Configuring the Grid
+## Skip Empty Tiles
 
-The configuration controls let you tell the tool how your spritesheet is
-laid out. Adjust these until the grid overlay lines up with the tiles in
-your image.
+**Skip empty tiles** is enabled by default. It excludes a tile only when every pixel in that tile is fully transparent.
 
-- **Tile Width / Tile Height**: The pixel dimensions of each tile. Changing
-  these automatically recalculates the number of columns and rows.
-- **Columns / Rows**: The number of tiles across and down. Changing these
-  automatically recalculates the tile dimensions.
-- **Spacing**: The pixel gap between tiles in the spritesheet. Some
-  spritesheets have padding between tiles; set this to match. Defaults to 0.
+The preview shows up to the first 200 tiles. This preview limit doesn't reduce the number uploaded.
 
-Tile dimensions and column/row counts stay in sync. Change one pair and the
-other updates to match. The grid overlay on the preview updates in real time
-as you adjust these values, so you can visually confirm the grid lines up
-with your tiles.
+## Choose a Destination
 
-### Skip Transparent Tiles
+Use the folder control to choose an Asset Library folder. Without a selection, the new tiles go to **My Assets**.
 
-The **Skip Transparent Tiles** checkbox (enabled by default) tells the
-importer to ignore tiles that are completely transparent. This is useful for
-spritesheets that have empty slots, since you probably don't want blank
-images cluttering your asset library.
+Create a folder before importing when you want the full set kept together.
 
-A tile is only skipped if every single pixel in it is fully transparent.
-Tiles with even partial content are kept.
+## Upload the Tiles
 
-## Previewing Tiles
+Select **Upload**. Maps extracts each tile as a PNG, uploads it, and reports progress. When the upload finishes, the Asset Library refreshes with the new images.
 
-Below the configuration controls, a tile preview grid shows thumbnails of
-each tile that will be imported. The preview updates as you change the grid
-settings, so you can confirm everything looks right before uploading. If
-your spritesheet has more than 200 tiles, the preview shows the first 200.
-The full set still uploads correctly; the limit only applies to the preview.
+## Use the Tiles on a Grid
 
-A label below the previews shows how many tiles are ready to upload. If
-transparent tile skipping is enabled, it also shows how many empty tiles
-were excluded.
+For a tiled map:
 
-## Choosing a Folder
+1. Set the [grid cell size](/docs/maps/features/grid-system#choose-a-grid) to match the tile scale.
+2. Enable auto-resize for newly placed assets.
+3. Place the tiles from their folder.
+4. Use grid duplication to build repeated rows or columns.
 
-By default, tiles are uploaded to your **My Assets** folder. To choose a
-different destination, click the **folder button** and select from your
-existing asset folders.
-
-## Uploading
-
-Click **Upload** to start importing. Each tile is extracted from the
-spritesheet, converted to PNG, and uploaded to your asset library. The
-button shows upload progress as each tile is processed.
-
-Once all tiles finish uploading, the asset library refreshes automatically
-and you're returned to the browse view where you can start placing your new
-tiles on the map.
-
-## Tips
-
-- **Optionally match tile size to your grid**: If you're building tiled maps, set your
-  [grid cell size](/docs/maps/features/grid-system#cell-size) to match the
-  tile dimensions from your spritesheet, for the best view. However, if the size is too
-  small, combine it with the [auto-resize to grid](/docs/maps/features/grid-system#auto-resize-to-grid)
-  feature and each tile will fit perfectly into a cell as you place it.
-- **Check spacing carefully**: If tiles appear slightly offset in the
-  preview, your spritesheet likely has spacing between tiles. Increase the
-  spacing value until the grid lines up.
-- **Organize with folders**: Create a folder for each tileset before
-  importing. This keeps your asset library tidy when you're working with
-  multiple spritesheets.
+If the preview cuts through the artwork, check the tile size and spacing before changing the map grid.

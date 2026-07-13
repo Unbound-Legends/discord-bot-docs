@@ -22,7 +22,29 @@ export default defineConfig({
         {
           label: "RPG Sessions",
           collapsed: true,
-          autogenerate: { directory: "rpg-sessions" },
+          items: [
+            { label: "Overview", slug: "rpg-sessions" },
+            {
+              label: "Guides",
+              items: [
+                { label: "Getting Started", slug: "rpg-sessions/guides/getting-started" },
+                { label: "Creating a Game", slug: "rpg-sessions/guides/creating-a-game" },
+                { label: "Your First Session", slug: "rpg-sessions/guides/your-first-session" },
+              ],
+            },
+            {
+              label: "Game Table",
+              items: [
+                { label: "Overview", slug: "rpg-sessions/game-table" },
+              ],
+            },
+            {
+              label: "Character Sheets",
+              items: [
+                { label: "Overview", slug: "rpg-sessions/characters" },
+              ],
+            },
+          ],
         },
         // Discord Bot Section
         {
@@ -65,18 +87,53 @@ export default defineConfig({
           items: [
             { label: "Overview", slug: "maps" },
             {
-              label: "Guides",
+              label: "Start Here",
               items: [
                 { label: "Getting Started", slug: "maps/guides/getting-started" },
               ],
             },
             {
-              label: "Features",
-              autogenerate: { directory: "maps/features" },
+              label: "Build a Map",
+              items: [
+                { label: "Asset Library and Backgrounds", slug: "maps/features/asset-library-and-backgrounds" },
+                { label: "Grid System", slug: "maps/features/grid-system" },
+                { label: "Layers", slug: "maps/features/layers" },
+                { label: "Fog of War", slug: "maps/features/fog-of-war" },
+                { label: "Lighting and Walls", slug: "maps/features/lighting-and-walls" },
+                { label: "Portals", slug: "maps/features/portals" },
+                { label: "Spritesheet Import", slug: "maps/features/spritesheet-import" },
+              ],
+            },
+            {
+              label: "Run a Session",
+              items: [
+                { label: "Character and Vehicle Tokens", slug: "maps/features/character-tokens" },
+                { label: "Character and Vehicle Sheets", slug: "maps/features/sheets" },
+                { label: "Vehicle Deck Plans", slug: "maps/features/vehicle-deck-plans" },
+                { label: "Initiative Tracker", slug: "maps/features/initiative-tracker" },
+                { label: "Encounters", slug: "maps/features/encounters" },
+                { label: "Range Bands", slug: "maps/features/range-bands" },
+                { label: "Pings and Notes", slug: "maps/features/pings-and-notes" },
+                { label: "Loot Drops", slug: "maps/features/loot-drops" },
+                { label: "Clocks and Counters", slug: "maps/features/clocks-and-counters" },
+              ],
+            },
+            {
+              label: "Manage the Table",
+              items: [
+                { label: "Map Management", slug: "maps/features/map-management" },
+                { label: "Map Assets and Players", slug: "maps/features/map-assets-and-players" },
+                { label: "Maps in the Data Library", slug: "maps/features/map-library" },
+                { label: "GM Controls", slug: "maps/features/gm-controls" },
+                { label: "Settings and Performance", slug: "maps/features/settings-and-performance" },
+                { label: "Table Tokens", slug: "maps/features/table-tokens" },
+              ],
             },
             {
               label: "Reference",
-              autogenerate: { directory: "maps/reference" },
+              items: [
+                { label: "Keyboard Shortcuts", slug: "maps/reference/keyboard-shortcuts" },
+              ],
             },
           ],
         },

@@ -1,126 +1,99 @@
 ---
 title: Keyboard Shortcuts
-description: Quick reference for all Maps keyboard shortcuts and modifier keys
+description: Desktop shortcuts for map tools, navigation, and asset editing
 ---
 
-Maps supports keyboard shortcuts for switching tools, navigating the map, editing
-assets, and more. This page covers every shortcut available, organized by what
-you're doing.
+Maps disables keyboard shortcuts while a text field is focused, so typing in a note, search box, or form won't switch tools.
 
-All keyboard shortcuts are disabled when a text field or form is focused, so you
-won't accidentally trigger a tool while typing.
+<div style="max-width: 315px; margin-inline: auto;">
+
+![The desktop Maps toolbar whose tools can be selected with keyboard shortcuts](../../../../assets/guides/maps/reference/keyboard-toolbar.jpg)
+
+</div>
 
 ## Tool Selection
 
-Press a single key to switch between tools. These shortcuts only work when no
-modifier keys (Ctrl, Shift, Alt) are held down.
+| Key | Tool | What It Does |
+|-----|------|--------------|
+| `V` | Pointer | Select and move assets |
+| `Z` | Resize | Resize the selected assets |
+| `R` | Rotate | Rotate the selected assets |
+| `B` | Brush | Draw lines and markers |
+| `E` | Eraser | Remove drawings |
+| `H` | Hand | Pan the map |
+| `L` | Lasso | Select several assets with a freeform area |
+| `W` | Walls | Open the GM wall tool while dynamic lighting is enabled |
+| `N` | Notes | Place a sticky note |
+| `P` | Ping | Ping the position under your cursor |
 
-| Key   | Tool          | What It Does                                            |
-|-------|---------------|---------------------------------------------------------|
-| **V** | Pointer       | Select and move assets on the map                       |
-| **Z** | Resize        | Scale selected assets by dragging                       |
-| **R** | Rotate        | Rotate selected assets by dragging                      |
-| **B** | Brush         | Freehand drawing on the map                             |
-| **E** | Eraser        | Erase drawn lines                                       |
-| **H** | Hand          | Pan the map view without affecting assets               |
-| **L** | Lasso         | Draw a selection area to select multiple assets at once  |
-| **W** | Wall          | Draw shadow-casting walls (GM only, requires lighting)  |
+## Pings
 
+| Shortcut | What It Does |
+|----------|--------------|
+| `P` | Ping the current cursor position without changing tools |
+| `Alt` + click | Ping a location |
+| `Alt` + drag | Draw a temporary tracer path |
 
-## Camera & Navigation
+You can also select the Ping tool and click the map. The tool returns to Pointer mode after a point ping.
 
-These shortcuts control how you view the map: panning around and zooming in or
-out.
+## Camera and Navigation
 
-| Shortcut                    | What It Does                           |
-|-----------------------------|----------------------------------------|
-| **Space** (hold)            | Pan the map by dragging                |
-| **Middle Mouse** (hold)     | Pan the map by dragging (alternative)  |
-| **Ctrl/Cmd + =**            | Zoom in                                |
-| **Ctrl/Cmd + -**            | Zoom out                               |
-| **Ctrl/Cmd + 0**            | Reset zoom to 100%                     |
-| **Scroll Wheel**            | Zoom in and out                        |
+| Shortcut | What It Does |
+|----------|--------------|
+| Hold `Space` and drag | Temporarily pan the map |
+| Hold middle mouse and drag | Pan without switching tools |
+| `Cmd/Ctrl` + `=` | Zoom in |
+| `Cmd/Ctrl` + `-` | Zoom out |
+| `Cmd/Ctrl` + `0` | Reset zoom to 100% |
+| Mouse wheel or trackpad gesture | Pan or zoom based on the input device |
 
-## Copy, Paste, and Undo
+## Copy, Paste, Undo, and Redo
 
-Standard editing shortcuts work the way you'd expect. Select one or more assets
-on the map, then use these shortcuts to manipulate them.
+| Shortcut | What It Does |
+|----------|--------------|
+| `Cmd/Ctrl` + `C` | Copy selected assets |
+| `Cmd/Ctrl` + `V` | Paste copied assets |
+| `Cmd/Ctrl` + `Z` | Undo |
+| `Cmd/Ctrl` + `Shift` + `Z` | Redo |
+| `Cmd/Ctrl` + `Y` | Redo on Windows and Linux |
 
-| Shortcut                        | What It Does                                  |
-|---------------------------------|-----------------------------------------------|
-| **Ctrl/Cmd + C**                | Copy selected assets                          |
-| **Ctrl/Cmd + V**                | Paste copied assets                           |
-| **Ctrl/Cmd + Z**                | Undo the last action                          |
-| **Ctrl/Cmd + Shift + Z**       | Redo                                          |
-| **Ctrl/Cmd + Y**                | Redo (alternative)                            |
-
-Undo and redo work for most actions: moving assets, drawing, deleting, pasting,
-and more.
+Undo and redo cover common map edits, including movement, drawing, deletion, pasting, fog changes, and wall state changes.
 
 ## Asset Manipulation
 
-These shortcuts change selected assets directly: flipping their orientation or
-moving them on the grid.
+| Shortcut | What It Does |
+|----------|--------------|
+| `Shift` + `F` | Flip the selection horizontally |
+| `Shift` + `V` | Flip the selection vertically |
+| Arrow keys | Move the selection one grid cell |
+| `Shift` + arrow keys | Move the selection five grid cells |
+| Hold `Shift` while dragging | Snap the selection to the grid |
+| Hold `Shift` while resizing | Resize in grid-sized steps |
 
-### Flipping
+Grid movement and snapping require an active [grid](/docs/maps/features/grid-system).
 
-| Shortcut      | What It Does                                          |
-|---------------|-------------------------------------------------------|
-| **Shift + F** | Flip selected assets horizontally (mirror left-right) |
-| **Shift + V** | Flip selected assets vertically (mirror up-down)      |
+## Drawing Modifiers
 
-When multiple assets are selected, they flip around the center of the entire
-selection. This is useful for mirroring formations or
-[building tiled maps](/docs/maps/features/grid-system#building-tiled-maps).
+| Shortcut | What It Does |
+|----------|--------------|
+| `R` while placing a marker | Rotate the marker 45 degrees clockwise |
+| `Shift` + `R` while placing a marker | Rotate the marker 45 degrees counter-clockwise |
+| Hold `Shift` while drawing a line | Constrain the line angle |
 
-### Grid Movement
+## Wall Modifiers
 
-These only work when the [grid](/docs/maps/features/grid-system) is enabled and
-at least one asset is selected.
-
-| Shortcut               | What It Does                                  |
-|------------------------|-----------------------------------------------|
-| **Arrow Keys**         | Move one grid cell in that direction           |
-| **Shift + Arrow Keys** | Move five grid cells in that direction         |
-
-On hex grids, the arrow keys map to the nearest hex direction.
-
-### Grid Snapping
-
-Hold **Shift** while dragging an asset to snap it to the nearest grid cell. This
-works with single assets and multi-selections alike.
-
-Hold **Shift** while resizing an asset (with the Resize tool) to snap the asset's
-size to grid cell increments. The asset scales in steps that align its edges to
-grid boundaries, making it easy to size tokens to cover an exact number of cells.
-
-Both require the [grid](/docs/maps/features/grid-system) to be enabled. See
-[Grid System](/docs/maps/features/grid-system#snapping-to-the-grid) for more
-details on snapping behavior.
-
-## Drawing Tool Modifiers
-
-These shortcuts apply while the Brush tool is active and you're placing marker
-stamps.
-
-| Shortcut      | What It Does                                    |
-|---------------|-------------------------------------------------|
-| **R**         | Rotate the marker 45° clockwise                 |
-| **Shift + R** | Rotate the marker 45° counter-clockwise         |
-| **Shift** (hold while drawing) | Constrain lines to straight angles |
+| Shortcut | What It Does |
+|----------|--------------|
+| Hold `Shift` while placing a box | Make it a square |
+| Right-click while placing | Finish or cancel the current wall placement |
+| Right-click while not placing | Remove the wall under the cursor |
 
 ## General
 
-| Shortcut   | What It Does                                              |
-|------------|-----------------------------------------------------------|
-| **Escape** | Deselect all assets, or cancel the current tool action    |
+| Shortcut | What It Does |
+|----------|--------------|
+| `Escape` | Cancel the current action or clear the selection |
 
-When the Rotate tool is active, pressing Escape switches back to the Pointer
-tool instead of deselecting.
+When Rotate mode is active, `Escape` returns to the Pointer tool instead of clearing the selection.
 
-## Platform Differences
-
-- On **macOS**, shortcuts use the **Cmd** key (⌘)
-- On **Windows and Linux**, shortcuts use the **Ctrl** key
-
-This applies to all shortcuts listed as "Ctrl/Cmd" above.
+On macOS, use `Cmd`. On Windows and Linux, use `Ctrl`.

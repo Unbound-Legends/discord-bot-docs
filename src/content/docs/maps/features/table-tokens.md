@@ -1,46 +1,29 @@
 ---
 title: Table Tokens
-description: How Patreon table tokens grant Maps access to your game
+description: Share Patreon Maps access with everyone in a game
 ---
 
-Table tokens are how RPG Sessions shares Patreon benefits with your entire
-game table. When you support us on 
-[Patreon](https://www.patreon.com/rpgsessions), you receive a table token (2 if you go Champion tier!) that
-you can assign to your game, allowing everyone at that table to have access to 
-the same table-level patron-tier features you do.
+Table tokens share your Patreon table benefits with a full RPG Sessions game. Assigning one token lets everyone in that game use the table-level features included with it, so each player doesn't need a separate subscription.
 
-This means one patron can unlock Maps for their whole group. No need to ask
-everyone to subscribe individually.
+Your available token count depends on your Patreon tier. See the current tiers on [Patreon](https://www.patreon.com/rpgsessions).
 
-## Assigning Tokens to Games
+## Assign a Token
 
-To assign a table token to one of your games:
+1. Open the game table on [RPG Sessions](https://rpgsessions.com).
+2. Open the game's settings.
+3. Find **Game Tokens**, then choose one under **Available Tokens**.
+4. Confirm the assignment.
 
-1. Go to your game table on [RPG Sessions](https://rpgsessions.com)
-2. Open the table settings
-3. Select the token you want to assign from your available tokens
-4. Confirm the assignment
+The game's access updates after the token is assigned.
 
-Once assigned, everyone at that table immediately gains access to the features that token provides.
+## Move a Token
 
-## Moving Tokens Between Games
+You can reassign a token when a campaign ends or another game needs it. Each assignment counts toward a limit of two assignments in a rolling seven-day period. Unlinking a token removes its benefits from the current game, but doesn't use another assignment.
 
-Life happens—campaigns end, groups change, or you might want to try a one-shot with different people. You can move your
-table tokens between games, but there's a cooldown to prevent abuse.
+After the second move, wait for an earlier move to leave that seven-day window before moving the token again.
 
-**Movement limits:**
+## Unlink a Token
 
-- You can move each token up to **2 times** within any 7-day period – 
-  effectively allowing you to juggle two games a week per token
-- After two moves, you'll need to wait before moving that token again
-- Unlinking a token from a game counts as one move
+Open the game's settings, find **Game Tokens**, and unlink the token under **Attached Tokens**. The game loses the table benefits provided by that token until another eligible token is assigned.
 
-This system gives you flexibility while ensuring tokens stay reasonably stable on active tables.
-
-## Unlinking Tokens
-
-If a campaign ends or you need to reassign a token, you can unlink it from a game table at any time through the table
-settings. Remember that unlinking counts toward your movement limit for that token.
-
-When a token is unlinked, the table loses access to the premium features that token provided. Players will see standard
-access until a new token is assigned.
+Check the movement limit before unlinking if you plan to use the token on another game right away.

@@ -1,91 +1,67 @@
 ---
 title: Character and Vehicle Sheets
-description: View and edit character and vehicle stats directly from the map with the side panel
+description: View stats, make edits, and start rolls from a token without leaving Maps
 ---
 
-Selecting a character or vehicle token on the map opens a side panel with a focused view of that token's stats. You can check characteristics, browse skills and weapons, and edit wounds or hull trauma without leaving the map.
+Select a linked character or vehicle token to open its quick sheet. The panel keeps the information you need during play close to the map, including damage, defenses, skills, weapons, talents, spells, critical injuries, vehicle crew, and deck plans.
 
-## Opening the Panel
+## Open and Position the Panel
 
-Select any character or vehicle token on the map. The panel slides in from the right edge of the screen.
+The panel has two layouts:
 
-To close the panel, click the **x** button in its top-right corner, click empty space on the map to deselect, or select a non-character/vehicle asset.
+- **Pinned** attaches to the right edge of the map. Drag its left edge to change the width.
+- **Floating** becomes a movable window. Drag its corner to resize it.
 
-### Layout Modes
+Use the pin button in the header to switch layouts. Maps saves your choice and panel size for the next session.
 
-The panel supports two layout modes:
+Close the panel with its `x` button. On desktop, select the same token and use the Sheet action in the selected-asset toolbar to reopen it.
 
-- **Pinned** (default): Docked to the right edge of the screen at full height. Drag the left edge to resize the width.
-- **Floating**: A freely draggable window you can position anywhere on screen. Drag the bottom-right corner to resize.
+The **Quick Character/Vehicle Sheets** setting controls whether selecting a token opens the panel automatically.
 
-Click the pin icon in the panel header to toggle between modes. Your layout preference and panel size are saved between sessions.
+Select **Actors** from the map controls to open the game roster without placing a token. Search for an actor, then select **Open** to show its quick sheet.
 
-## Character Sheets
+<div style="max-width: 900px; margin-inline: auto;">
 
-When you select a character token, the panel displays the character's full stat block.
-
-<div style="max-width: 300px;">
-
-![An example character sheet, showing a portrait, characteristics grid, wound/strain bars, and defense views](../../../../assets/guides/maps/features/sheets/character-sheet.png)
+![The Actors roster open beside a character quick sheet](../../../../assets/guides/maps/features/sheets/actor-roster-and-sheet.jpg)
 
 </div>
 
-### Portrait and Identity
+## Who Can Edit
 
-At the top of the panel you'll see:
+You can edit a player character you own. GMs can edit NPCs, vehicles, and other actors they manage. Viewers without edit permission get the same sheet without the edit controls.
 
-- **Character portrait** pulled from the character's profile image
-- **Character name**
-- **Type badge** showing the character's role: Player, NPC, Nemesis, Rival, or Minion
+Actor visibility still applies. A player may see only the actor's name, or may not have access to the full sheet at all. The GM can change NPC visibility from the quick sheet.
 
-### Characteristics
+## Character Overview
 
-A six-column grid displays the character's core attributes:
+The top of a character sheet includes:
 
-| BR | AG | INT | CUN | WIL | PR |
-|---|---|---|---|---|---|
-| Brawn | Agility | Intellect | Cunning | Willpower | Presence |
+- Portrait, name, and actor type
+- Brawn, Agility, Intellect, Cunning, Willpower, and Presence
+- Wounds, strain, and soak
+- Melee and ranged defense
+- Force rating and committed Force dice when used
+- Adversary level for GMs
+- Remaining count for minion groups
 
-The highest values are highlighted to make them easy to spot at a glance.
+Editable wound, strain, and committed Force values use step buttons and direct number entry. Rapid clicks are grouped into one saved update after you stop.
 
-### Wounds and Strain
+<div style="max-width: 300px;">
 
-Below the characteristics, progress bars show current wounds and strain against their thresholds. If you have [edit permission](#who-can-edit), each bar includes:
+![An example character sheet, showing a portrait, characteristics grid, wound and strain bars, and defense values](../../../../assets/guides/maps/features/sheets/character-sheet.png)
 
-- **[-] and [+] buttons** to step the value down or up by 1
-- **Direct input** where you can click the number, type a new value, and press Enter
+</div>
 
-Changes sync immediately to the token's health bars and to every other player at the table.
+## Skills
 
-#### Rapid Edits
+Skills are grouped by Combat, General, Magic, Social, Knowledge, and Other. Each row shows:
 
-If you click [+] or [-] several times quickly, the panel batches your changes. It waits briefly after you stop clicking, then saves the final value to the database in a single write. This keeps the interface responsive even when applying large amounts of damage.
+- Career status
+- Linked characteristic
+- Skill ranks
+- The assembled dice pool
 
-### Defense and Soak
-
-The panel shows defense and durability stats as individual cards:
-
-- **Soak** value
-- **Melee Defense**
-- **Ranged Defense**
-
-### Force Rating
-
-For Force-sensitive characters, the panel displays the character's Force rating along with the number of committed Force dice. If you have edit permission, stepper controls let you adjust the committed count.
-
-### Adversary Level
-
-For NPC adversaries, GMs see an adversary level badge on the panel. This is only visible to GMs.
-
-### Minion Groups
-
-When you select a minion group token, the panel shows an additional counter below the defense values:
-
-> 3 / 5 alive
-
-The wounds and strain bars scale to the group's total capacity. A group of 5 minions with wound threshold 5 shows wounds out of 25. As you increase wounds, the minion counter updates to match.
-
-### Skills Tab
+Use the **Career** filter to hide non-career skills. Select a skill to open its dice pool in the game table.
 
 <div style="max-width: 300px;">
 
@@ -93,20 +69,11 @@ The wounds and strain bars scale to the group's total capacity. A group of 5 min
 
 </div>
 
-The Skills tab lists all of the character's skills, grouped by type: Combat, General, Magic, Social, Knowledge, and Other.
+## Weapons and Targeting
 
-Each skill row shows:
+Weapon cards show damage, critical rating, range, qualities, and the attack dice pool. Use the **Equipped** filter to focus on carried weapons.
 
-- **Career indicator** (a warm amber border on the left for career skills)
-- **Skill name** and linked characteristic abbreviation
-- **Rank pips** showing the skill's rank out of 5
-- **Dice pool** icons showing the assembled pool for that skill
-
-Use the **Career toggle** at the top to filter down to career skills only. This defaults to on for NPCs and off for player characters.
-
-**Click any skill** to open a dice roll for it in the game table.
-
-### Weapons Tab
+Selecting a weapon starts a map targeting flow when a valid attacker token is on the map. Pick a target to add map context such as range and line of sight before the attack moves to the game table. Cancel targeting with `Escape`.
 
 <div style="max-width: 300px;">
 
@@ -114,19 +81,11 @@ Use the **Career toggle** at the top to filter down to career skills only. This 
 
 </div>
 
+## Talents
 
-The Weapons tab displays the character's weapons as cards, each showing:
+The Talents tab groups repeated and ranked talents, then shows their activation type and description. Use the **Owned** filter to hide unpurchased tree entries, or search by talent name and description.
 
-- **Weapon name** with a color-coded accent for carry state
-- **Stat pills** for Damage (DAM), Critical rating (CRIT), and Range (RNG)
-- **Dice pool** icons for the attack roll
-- **Weapon qualities** listed below the stats
-
-Use the **Equipped toggle** to filter to equipped weapons only (on by default).
-
-**Click a weapon** to open an attack roll for it in the game table.
-
-### Talents Tab
+Force and Conflict talents use separate accents so they stand out from regular talents.
 
 <div style="max-width: 300px;">
 
@@ -134,19 +93,48 @@ Use the **Equipped toggle** to filter to equipped weapons only (on by default).
 
 </div>
 
-The Talents tab lists the character's talents, grouped by name. Each entry shows:
+## Spells
 
-- **Talent name** with rank indicator if ranked
-- **Activation badge** color-coded by type: Passive, Action, Maneuver, or Incidental
-- **Expandable description** (click to reveal the full text)
+Characters with the spellbook feature enabled get a Spells tab. Spell cards can show:
 
-Special talent types have distinct accent colors. Force talents appear with a violet-blue accent and Conflict talents appear with a crimson accent.
+- Spell action and magic skill
+- Range and strain cost
+- Concentration requirement
+- Qualities and additional effects
+- The full dice pool
+- Description and mechanical effect
 
-Use the **Owned toggle** to show only purchased talents (on by default). Unpurchased talents appear faded. A **search filter** lets you find talents by name or description text.
+Select the dice pool to open the spell builder on the game table. The roll starts with the spell's current difficulty and the character's magic skill.
 
-## Vehicle Sheets
+## Critical Injuries
 
-When you select a vehicle token, the panel switches to a vehicle-specific layout. Vehicle tokens appear in the **At the Table** section of the asset manager under separate "Player Vehicles" and "NPC Vehicles" groups.
+The Crits tab keeps active and healed critical injuries together. Active injuries appear first, while healed entries move into Recovered History.
+
+If you can edit the character, you can:
+
+- Choose an enabled critical table
+- Add a manual modifier in steps of 10
+- Roll a new critical injury
+- Mark an injury healed or active
+- Delete an entry
+
+Viewers without edit permission can still read criticals allowed by the actor's visibility.
+
+## Vehicle Overview
+
+A vehicle sheet replaces character stats with:
+
+- Silhouette, speed, current speed, and handling
+- Hull trauma and system strain
+- Armor
+- Fore, Port, Starboard, and Aft defense
+- Installed weapons and fire arcs
+- Vehicle critical hits
+- Assigned crew
+
+Handling can be negative. Current speed, hull trauma, and system strain can be edited when you have permission.
+
+Vehicle criticals use the same roll, heal, restore, and delete workflow as character criticals, but they use the game's enabled vehicle critical tables.
 
 <div style="max-width: 300px;">
 
@@ -154,44 +142,16 @@ When you select a vehicle token, the panel switches to a vehicle-specific layout
 
 </div>
 
-### Vehicle Characteristics
+## Crew and Deck Plans
 
-A four-column grid displays the vehicle's core attributes:
+Assigned crew appear below the vehicle portrait and under the token. Select an identified crew portrait to switch the quick sheet to that character.
 
-| SIL | SPD | CUR | HND |
-|---|---|---|---|
-| Silhouette | Max Speed | Current Speed | Handling |
+Vehicles with a deck plan get an **Open Deck Plan** button. The deck view shows areas, crew, actions, weapons, and the vehicle layout. See [Vehicle Deck Plans](/docs/maps/features/vehicle-deck-plans) for the full workflow.
 
-Handling can be a negative number for less maneuverable vehicles.
+When a character is assigned to a vehicle area, their own sheet gets a **Crewing** section with that area's actions and weapons. This lets the player roll vehicle actions without leaving the character sheet.
 
-### Hull Trauma and System Strain
+## Live Updates
 
-These work the same way as character wounds and strain. Progress bars show the current values against their thresholds, with editable stepper controls if you have permission.
+Sheet changes update the map token and other connected clients. If another player changes the same actor through the game table, the open quick sheet refreshes without forcing you back to the top of the panel.
 
-- **Hull Trauma** tracks physical damage to the vehicle
-- **System Strain** tracks stress on the vehicle's systems
-
-### Armor and Defense Zones
-
-Unlike characters (which have melee and ranged defense), vehicles use directional defense zones:
-
-- **Armor** (read-only)
-- **Fore** defense
-- **Port** defense
-- **Starboard** (Stbd) defense
-- **Aft** defense
-
-### Vehicle Weapons
-
-Below the defense section, the panel lists the vehicle's installed weapons. Each weapon card shows:
-
-- **Weapon name**
-- **Stat pills** for Damage (DAM), Critical rating (CRIT), and Range (RNG)
-- **Fire arc tags** indicating which direction the weapon covers
-
-Vehicle weapons are displayed as read-only. There are no Skills or Talents tabs for vehicles.
-
-## Related Features
-
-- **[Character Tokens](/docs/maps/features/character-tokens)**: How tokens link to characters and display stats on the map
-- **[GM Controls](/docs/maps/features/gm-controls)**: Visibility settings and other GM-only features
+Use [Character and Vehicle Tokens](/docs/maps/features/character-tokens) for token placement, visibility, and movement rules.

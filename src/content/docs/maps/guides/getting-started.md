@@ -1,249 +1,176 @@
 ---
 title: Getting Started with Maps
-description: Learn how to access Maps, navigate the interface, and add your first assets
+description: Open Maps, learn the interface, and build your first playable map
 ---
 
-Sessions Maps is a browser-based tool that runs inside the RPG Sessions website.
-You don't need to install anything. Open your game, click into Maps, and you're
-ready to go! Everything happens in real-time: when the GM places a token or 
-reveals an area, every connected player sees it instantly.
+If you're opening Maps for the first time, start with a background, one character token, and a grid. That gives you enough to learn the controls without setting up every feature at once.
 
-This guide walks you through accessing Maps for the first time, understanding the
-interface, and getting your first map set up.
+## Before You Start
 
-## Accessing Maps
+You'll need:
 
-Maps are accessed through the RPG Sessions website. You'll need an RPG Sessions
-account and membership in a game that has Maps enabled.
+- An RPG Sessions account
+- Membership in an RPG Sessions game
+- A game with Maps access through a Patreon subscription or table token
+- GM access if you want to create pages, upload assets, or change map settings
 
-1. Go to [rpgsessions.com](https://rpgsessions.com) and log in
-2. Open your game table
-3. Click into the Maps section
+## Open Maps
 
-The map loads directly in your browser. Authentication happens automatically — you
-don't need to log in a second time.
+1. Sign in at [rpgsessions.com](https://rpgsessions.com).
+2. Open your game table.
+3. Select **Map Editor**.
 
-:::note[Patreon Required]
-Sessions Maps requires an **Adventurer tier or higher** Patreon subscription, or
-a game table with an Adventurer-tier table token assigned. [Support us on
-Patreon](https://www.patreon.com/rpgsessions) to unlock Maps.
-:::
+Maps loads inside the game table and uses your existing session. You don't need to sign in again.
 
-### First Load
-
-When you open Maps for the first time:
-
-- **If you're the GM** and no maps exist yet, a default map is created for
-  you automatically. You'll land on an empty canvas ready for assets.
-- **If you're a player**, you'll see whatever map page the GM has set as the
-  default view. If the GM hasn't set one yet, you'll see the first available page.
-
-## The Interface
-
-The Maps interface is designed to stay out of your way until you need it. Here's
-what you'll find on screen.
+If the game doesn't have a map yet, the GM gets an empty page to start from. Players open on the game's default map page.
 
 ![Blank map](../../../../assets/guides/maps/guides/getting-started/blank-map.png)
 
+## Learn the Main Controls
+
+The desktop layout keeps map tools along the left side. The controls that open larger panels sit around the map edge. On a phone or narrow tablet, those actions move into a top bar and floating tool menu.
+
 ### Left Toolbar
 
-The vertical toolbar on the left side of the screen holds your tools. From here
-you can switch between the pointer, hand (pan), draw, eraser, lasso select, and
-other tools. Clicking a tool activates it, and some tools open additional options
-in a side panel.
+The toolbar includes:
 
-You don't need to memorize all the tools right away. The two you'll use most
-when starting out are the **Pointer** (for selecting and moving assets) and the
-**Hand** tool (for panning around the map).
+- **Pointer** for selecting and moving assets
+- **Ping** for marking locations and tracing routes
+- **Hand** for panning
+- **Brush** and **Eraser** for drawing
+- **Lasso** for selecting several assets
+- **Fog** for covering and revealing areas
+- **Walls** for lighting, line of sight, doors, and movement blocking
+- **Notes** for placing editable text
+- Panel buttons for layers, clocks, map assets, and other map tools
 
-### Bottom-Left Panel
+You don't need all of these for your first map. Start with the Pointer and Hand tools.
 
-Three buttons sit in the bottom-left corner:
+### Map Panels
 
-- **Asset Library** — Opens the panel where you browse and add images, tokens,
-  and character assets to the map
-- **Map Management** — Browse and switch between map pages and folders
-- **Settings** (gear icon) — Opens the settings panel for grid configuration
-  and other options
+The main panels cover different jobs:
 
-### Top Asset Controls
+- **Assets** holds uploaded images, actors, encounters, and public content.
+- **Maps** holds map pages and folders.
+- **Map Assets** lists named characters and vehicles on the current page.
+- **Settings** controls the grid, background, display options, dice, lighting, and performance.
 
-When you select one or more assets on the map, a control bar slides down from
-the top of the screen. This gives you quick access to move, resize, rotate, lock,
-hide, and delete the selected assets. It only appears when something is selected,
-so it won't clutter your view otherwise.
+Panels can overlap on a large screen. Maps keeps the active panel in front, and most panels can be moved or resized.
 
-![Asset toolbar](../../../../assets/guides/maps/guides/getting-started/asset-toolbar.png)
+## Move Around the Map
 
-### Home Button
+### Desktop
 
-The infinite scroll map makes it easy to get lost. If you've panned far from 
-your starting position, a home button appears on screen on the bottom left. 
-Click it to smoothly animate back to the default view position and zoom.
+- Select the **Hand** tool or press `H`, then drag.
+- Hold the middle mouse button and drag with any tool selected.
+- Hold `Space` for a temporary Hand tool.
+- Use a mouse wheel or trackpad gesture to zoom.
+- Use `Cmd/Ctrl` + `=`, `Cmd/Ctrl` + `-`, and `Cmd/Ctrl` + `0` for keyboard zoom controls.
 
-### Presence Indicator
+### Touch
 
-When multiple people are connected to the same map, a green indicator appears
-in the upper-right showing how many users are online. Hover over it to see a
-list of who's connected and whether they're on the same map page as you. GMs
-also see a summon button here to bring all players to their current view.
+- Drag empty map space with one finger when the active tool allows it.
+- Use two fingers to pan and zoom without drawing or moving an asset.
+- Open **Settings > General > Layout** if you need to force the mobile or desktop layout.
 
-## Navigating the Map
+The Home button returns you to the page's saved default view if you lose your place.
 
-Before adding anything, get comfortable moving around the canvas.
+## Add a Background
 
-### Panning
+There are two useful background workflows.
 
-Move your view across the map using any of these methods:
+### Place a Full Map Image
 
-- **Hand tool**: Select the Hand tool (`H`) and click-drag to pan
-- **Middle mouse button**: Hold and drag to pan, works with any tool active
-- **Space bar**: Hold Space and move your mouse to pan, works with any tool active
-- **Two-finger drag**: On touch devices, drag with two fingers to pan
+Use this for a dungeon, town, ship, or other complete battle map.
 
-### Zooming
-
-Zoom in and out to get the right level of detail:
-
-- **Scroll wheel**: Scroll up to zoom in, scroll down to zoom out
-- **Keyboard**: `Cmd/Ctrl` + `+` to zoom in, `Cmd/Ctrl` + `-` to zoom out,
-  `Cmd/Ctrl` + `0` to reset to default zoom
-
-## Adding Your First Map Image
-
-An empty canvas isn't very useful. Let's add a background map image.
-
-1. Click the **Asset Library** button in the bottom-left to open the asset panel
-2. Upload a map image (a dungeon layout, a tavern floor plan, a wilderness scene —
-   whatever your session calls for)
-3. Click the uploaded image to save it to your assets
-4. Click on the asset to add it to the map
+1. Open **Assets**.
+2. Select **Upload** and choose the image.
+3. Add the uploaded image to the map.
+4. Resize and position it.
+5. Lock it or move it to a locked background layer.
 
 ![Upload tab on the asset manager](../../../../assets/guides/maps/guides/getting-started/asset-manager.png)
 
-The image appears on the canvas. You can now:
+Placed backgrounds behave like other assets, which means you can rotate them, move them between layers, or copy them.
 
-- **Move it** by selecting it with the Pointer tool and dragging
-- **Resize it** by selecting it and using the resize control in the top toolbar
-- **Lock it in place** by selecting it and clicking the lock button in the top
-  toolbar, so nobody accidentally drags it during play
+### Use a Repeating Background
 
-:::tip
-Lock your background map image after positioning it. This prevents anyone from
-accidentally moving it when they're trying to interact with tokens on top 
-of it. You can learn more about locking in the [GM Controls](../features/gm-controls.md) overview.
-:::
+Use this for paper textures, water, grass, stars, or another image that should repeat across the whole canvas.
 
-## Adding Tokens
+1. Open **Settings**.
+2. Under **General**, find **Background Image**.
+3. Choose an image from your asset library.
+4. Adjust its scale.
+5. Save the settings.
 
-With a map image in place, you'll want to add tokens for characters and NPCs.
+The [Asset Library and Backgrounds guide](/docs/maps/features/asset-library-and-backgrounds) covers folders, animated GIFs, spritesheets, and background choices in more detail.
 
-### Character Tokens
+## Add a Character or Vehicle
 
-The asset library has an **At the Table** section that shows all characters in
-your current RPG Sessions game. Click a character to add their token to the map.
+Open **Assets** and select **Your Content**. Characters and vehicles already in the game appear above your uploaded assets, grouped by actor type:
 
-Character tokens are special — they're linked to the character data from your game:
+- Player Characters
+- Player Vehicles
+- NPCs
+- NPC Vehicles
 
-- **Name labels** appear below the token automatically
-- **Wound and strain bars** display below the token and update in real-time as
-  characters take damage through the bot or website
-- **Minion groups** show an elimination counter (e.g., "Stormtroopers 3/5")
+Select an actor to place its linked token on the current page.
 
-For more details on how character tokens work, see
-[Character Tokens](/docs/maps/features/character-tokens).
+If the actor isn't listed, add it to the game table first. Return to Maps and reopen **Your Content** to place it.
 
-### Image Assets
+Linked tokens can show names, wound or strain bars, hull or system strain, and minion counts. Select one to open its [quick sheet](/docs/maps/features/sheets).
 
-You can also add plain images as tokens or scenery. Upload any image through the
-asset library and click it to place it on the map. These work well for:
+## Work with Assets
 
-- Terrain pieces and props
-- Custom token art not linked to a character
-- Environmental markers and decorations
+### Select and Move
 
-## Basic Asset Controls
+- Click an asset with the Pointer tool.
+- Hold `Shift` and click to add or remove assets from the selection.
+- Use the Lasso tool to select a group.
+- Drag selected assets to move them.
+- With a grid enabled, use arrow keys to move one cell or `Shift` + arrow keys to move five cells.
 
-Once assets are on the map, here are the essentials for working with them.
+### Resize, Rotate, and Copy
 
-### Selecting
+- Press `Z` for Resize mode.
+- Press `R` for Rotate mode.
+- Use `Cmd/Ctrl` + `C` and `Cmd/Ctrl` + `V` to copy and paste.
+- Use `Cmd/Ctrl` + `Z` to undo and `Cmd/Ctrl` + `Shift` + `Z` to redo.
 
-Click an asset with the Pointer tool (`V`) to select it. Click empty space to
-deselect. Hold `Shift` and click to add assets to your selection, or use the
-Lasso tool (`L`) to draw a freeform selection area around multiple assets.
+The action bar for a selected asset also includes visibility, locking, layer movement, sheet access, and other actions that apply to that asset type.
 
-### Moving
+![Asset toolbar](../../../../assets/guides/maps/guides/getting-started/asset-toolbar.png)
 
-With an asset selected, drag it to reposition. If a grid is enabled, you can also
-use **arrow keys** to move assets one grid cell at a time, or **Shift + arrow
-keys** to move five cells at a time.
+## Set Up the Grid
 
-### Resizing and Rotating
-
-Select an asset and use the **Resize** or **Rotate** buttons in the top control
-bar. You can also press `Z` for resize mode or `R` for rotate mode, then drag
-on the asset.
-
-### Copy and Paste
-
-- `Cmd/Ctrl` + `C` to copy selected assets
-- `Cmd/Ctrl` + `V` to paste them
-
-### Undo and Redo
-
-- `Cmd/Ctrl` + `Z` to undo
-- `Cmd/Ctrl` + `Shift` + `Z` to redo
-
-## Setting Up the Grid
-
-If your game uses tactical movement, you'll want to configure the grid overlay.
-
-1. Open **Settings** (gear icon in the bottom-left)
-2. Choose your grid type: **Hexagonal**, **Square**, **Hexagonal Rotated**, or
-   **None**
-3. Adjust the **cell size** slider to match your map image's scale
-4. Pick a **grid color** that's visible against your map
+1. Open **Settings**.
+2. Choose **Square**, **Hexagon**, **Hexagon (rotated)**, or **None**.
+3. Set the cell size to match the map art.
+4. Choose a grid color that stands out against the background.
+5. Save the settings.
 
 ![Grid settings](../../../../assets/guides/maps/features/grid-system/settings.png)
 
-When the grid is active, assets can snap to grid positions using the **Align to
-Grid** button in the asset controls. Arrow key movement also follows the grid.
+Hold `Shift` while dragging or resizing to snap an asset to the grid. The [Grid System guide](/docs/maps/features/grid-system) covers alignment tools and tiled-map workflows.
 
-## Saving and Default View
+## Save the Starting View
 
-Your work saves automatically. Every change — moving an asset, drawing a line,
-placing fog — is saved to the server the moment it happens. There's no save button
-to remember and no risk of losing work if you close the browser.
+Maps saves map changes as you work. You don't need a page-level save button.
 
-### Setting the Default View
+As a GM, you can also choose where everyone starts:
 
-As a GM, you can set the camera position and zoom that players see when they first
-load the map:
+1. Move and zoom the camera to the view you want.
+2. Open **Settings**.
+3. Select **Set default map & view**.
 
-1. Navigate your camera to the position and zoom level you want
-2. Open **Settings** (gear icon)
-3. Click **Set current view as default**
+This page becomes the game's starting map, and the saved camera position becomes its default view.
 
-This also marks the current page as the starting page for the game. When anyone
-opens Maps, this is where they'll land.
+## Try These Next
 
-## What's Next
+- Use [Fog of War](/docs/maps/features/fog-of-war) to hide rooms and reveal them with a brush.
+- Open [Player Preview](/docs/maps/features/gm-controls#preview-the-player-view) before a session to check what the group can see.
+- Add [Lighting and Walls](/docs/maps/features/lighting-and-walls) for line of sight, exploration, doors, and token lights.
+- Set up [Portals](/docs/maps/features/portals) between map pages.
+- Save the finished page to your [Map Library](/docs/maps/features/map-library) so you can reuse it in another game.
 
-You now have a map with a background, tokens, and a grid. From here, you can
-explore the features that make Sessions Maps a full tactical tool:
-
-- **[Fog of War](/docs/maps/features/fog-of-war)**: Hide parts of the map and
-  reveal them as players explore
-- **[Character Tokens](/docs/maps/features/character-tokens)**: Deep dive into
-  linked tokens, visibility levels, and minion groups
-- **[Grid System](/docs/maps/features/grid-system)**: Advanced grid configuration
-  and alignment tools
-- **[GM Controls](/docs/maps/features/gm-controls)**: Asset visibility, player
-  summoning, map management, and encounters
-- **[Layers](/docs/maps/features/layers)**: Organize assets across multiple
-  layers with per-layer visibility and locking
-- **[Keyboard Shortcuts](/docs/maps/reference/keyboard-shortcuts)**: Full
-  reference for all available shortcuts
-
-Need help? Join our [community Discord](https://discord.gg/DfEkRzUbjk) for
-support and tips from other users.
+For every desktop key combination, see [Keyboard Shortcuts](/docs/maps/reference/keyboard-shortcuts).

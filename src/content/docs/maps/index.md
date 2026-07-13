@@ -1,37 +1,50 @@
 ---
 title: Interactive Maps
-description: Documentation for RPG Sessions interactive maps and battle grids
+description: Build and run collaborative battle maps inside your RPG Sessions game table
 ---
 
-Run tactical encounters with real-time collaboration using Sessions Maps. It's a browser-based tool that runs directly on the RPG Sessions website, no installation required. Build interactive battle maps, place tokens linked to your characters, draw directly on the canvas, and manage fog of war, all while your players see every change the moment it happens.
+Sessions Maps gives your group a shared canvas for tactical encounters, exploration, and visual scene planning. It runs inside the RPG Sessions game table, so you don't need to install anything or manage a separate account.
+
+You can build maps with uploaded images, grids, layers, fog, lighting, walls, portals, notes, and reusable library copies. During a session, character and vehicle tokens stay connected to their sheets while initiative, dice rolls, loot, and encounter changes move between Maps and the game table.
 
 :::note[Patreon Required]
-Sessions Maps requires an **Adventurer tier or higher** Patreon subscription, or a game table with an Adventurer-tier [table token](/docs/maps/features/table-tokens) assigned. One patron can unlock Maps for their whole group. [Support us on Patreon](https://www.patreon.com/rpgsessions) to get started.
+Sessions Maps requires an **Adventurer tier or higher** Patreon subscription, or a game table with an Adventurer-tier [table token](/docs/maps/features/table-tokens) assigned. One patron can unlock Maps for the whole group.
 :::
 
-## Features
+## Start Here
 
-Sessions Maps gives you everything you need for tactical gameplay:
+The [Getting Started guide](/docs/maps/guides/getting-started) walks through the interface, map navigation, adding a background, and placing your first character token.
 
-- **[Character and Vehicle Sheets](/docs/maps/features/sheets)**: Select a character or vehicle token to open a side panel showing full stats, skills, weapons, and talents with inline editing.
-- **[Character Tokens](/docs/maps/features/character-tokens)**: Add tokens linked to your RPG Sessions characters. They display wound and strain bars, character names, and minion group counters, all updating in real-time.
-- **Drawing Tools**: Sketch directly on the map with the brush tool. Place marker stamps, draw freehand, and use the eraser to clean up.
-- **Encounters**: GMs can browse encounters from their RPG Sessions game and add NPCs directly to the map from the asset manager.
-- **[Fog of War](/docs/maps/features/fog-of-war)**: Draw opaque fog areas to hide parts of the map from players. Erase fog room by room as the party explores.
-- **[GM Controls](/docs/maps/features/gm-controls)**: Hide and restrict assets, summon players to your view, manage multiple map pages, and add encounters.
-- **[Grid System](/docs/maps/features/grid-system)**: Overlay square or hex grids with snap-to-grid positioning, arrow key movement, and tools for building tiled maps.
-- **[Layers](/docs/maps/features/layers)**: Organize assets across multiple layers with independent visibility, ordering, and locking. Set layers to GM-only for prep work players can't see.
-- **[Range Bands](/docs/maps/features/range-bands)**: Display colored range band rings around tokens for narrative distance systems like Genesys and FFG Star Wars.
-- **Real-time Collaboration**: Every change syncs instantly. Move a token, draw a line, reveal fog, and your players see it the moment it happens.
+If you already know your way around Maps, use these sections to find what you need.
 
-## Getting Started
+## Build a Map
 
-New to Maps? The [Getting Started guide](/docs/maps/guides/getting-started) walks you through accessing Maps, navigating the interface, adding your first map image, placing tokens, and configuring the grid.
+- **[Asset Library and Backgrounds](/docs/maps/features/asset-library-and-backgrounds)**~~~~: Upload images and animated GIFs, organize folders, add tiled backgrounds, and import spritesheets.
+- **[Grid System](/docs/maps/features/grid-system)**: Configure square or hex grids, snap assets into place, and build maps from tiles.
+- **[Layers](/docs/maps/features/layers)**: Separate backgrounds, props, tokens, and GM-only setup into ordered layers.
+- **[Fog of War](/docs/maps/features/fog-of-war)**: Cover and reveal parts of the map with adjustable brushes.
+- **[Lighting and Walls](/docs/maps/features/lighting-and-walls)**: Add token lights, exploration darkness, walls, windows, doors, and one-way sight lines.
+- **[Portals](/docs/maps/features/portals)**: Connect locations across map pages and control how players discover and use them.
 
-For a quick reference of every shortcut available, see [Keyboard Shortcuts](/docs/maps/reference/keyboard-shortcuts).
+## Run a Session
 
-## Related Documentation
+- **[Character and Vehicle Tokens](/docs/maps/features/character-tokens)**: Place linked actors with live names, stats, and visibility.
+- **[Character and Vehicle Sheets](/docs/maps/features/sheets)**: Read and edit stats, roll skills and attacks, manage criticals, and cast spells without leaving the map.
+- **[Vehicle Deck Plans](/docs/maps/features/vehicle-deck-plans)**: Manage crew, actions, weapons, defense arcs, and deck areas.
+- **[Initiative Tracker](/docs/maps/features/initiative-tracker)**: Follow turn order and highlight the active token.
+- **[Encounters](/docs/maps/features/encounters)**: Activate encounters, add missing actors, and place encounter tokens.
+- **[Pings and Notes](/docs/maps/features/pings-and-notes)**: Point something out, trace a route, or leave text on the map.
+- **[Loot Drops](/docs/maps/features/loot-drops)**: Attach loot to map assets and control when players can discover it.
+- **[Clocks and Counters](/docs/maps/features/clocks-and-counters)**: Track progress, pressure, and changing totals on the map.
 
-- [RPG Sessions Platform](/docs/rpg-sessions): Learn about game tables and character management
-- [Discord Bot](/docs/guides/how-to): Connect your sessions to Discord
-- **Need help?** Join our [community Discord](https://discord.gg/DfEkRzUbjk) for support and tips from other users
+## Manage the Table
+
+- **[Map Management](/docs/maps/features/map-management)**: Create, rename, organize, preview, and delete map pages and folders.
+- **[Map Assets and Players](/docs/maps/features/map-assets-and-players)**: Find named tokens, jump across the map, and bring players or their tokens to the current view.
+- **[Maps in the Data Library](/docs/maps/features/map-library)**: Save reusable map copies, add them to games, and relink placeholder tokens.
+- **[GM Controls](/docs/maps/features/gm-controls)**: Preview the player view, control visibility, restrict movement, and summon the group.
+- **[Settings and Performance](/docs/maps/features/settings-and-performance)**: Configure display options, 3D dice, mobile layout, performance mode, and local cache storage.
+
+The [Keyboard Shortcuts reference](/docs/maps/reference/keyboard-shortcuts) lists every current desktop shortcut.
+
+Need help? Join the [RPG Sessions community Discord](https://discord.gg/DfEkRzUbjk).

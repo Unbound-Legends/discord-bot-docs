@@ -1,144 +1,111 @@
 ---
-title: Character Tokens
-description: Link tokens to characters to display stats, track wounds, and manage visibility
+title: Character and Vehicle Tokens
+description: Place actors from your game or library and keep their map tokens linked to live sheets
 ---
 
-Tokens on the map can be linked to characters from your RPG Sessions game, turning
-simple images into living representations of your PCs, NPCs, and adversaries. When
-a token is linked to a character, it displays health bars, shows character names,
-and automatically updates as the character takes wounds or strain during play.
+A linked token represents a character or vehicle from your RPG Sessions game. Its name, visibility, stats, sheet, and other actor details stay connected to the game table, so you don't need to update the map separately when something changes.
 
-This connection means you never need to manually track which token belongs to which
-character; the map does it for you.
+## Place an Actor from the Game
 
-## Adding Character Tokens from the Asset Manager
+Open **Assets** and select **Your Content**. Characters and vehicles already in the game appear above your uploaded assets, grouped into:
 
-Character tokens are added through the **At the Table** section of the asset manager,
-which automatically displays all characters from your RPG Sessions game.
+- Player Characters
+- Player Vehicles
+- NPCs
+- NPC Vehicles
 
-To add a character token to the map:
+![The Your Content tab showing characters from the current game](../../../../assets/guides/maps/features/character-tokens/at-the-table.png)
 
-1. Open the asset manager
-2. Find the **At the Table** section, this shows all characters in the current game
-   player characters)
-3. Click on the character you want to add to the map
+Select an actor to place it on the current map page. The token uses the actor's image when one is available and starts with its character or vehicle link already set.
 
-The token is created already linked to the character. Its name label appears immediately,
-and if the character has wounds or strain, the health bars display automatically.
+## Add an Actor to the Game
 
-![The At the Table section in the asset manager showing game characters](../../../../assets/guides/maps/features/character-tokens/at-the-table.png)
+If an actor isn't listed in **Your Content**:
 
-Once placed, the token stays linked to the character. Changes to wounds, strain, or
-visibility sync automatically. If you update the character through the bot or web
-interface, the token updates in real-time for everyone at the table.
+1. Return to the RPG Sessions game table.
+2. Add the character or vehicle to the game.
+3. Return to **Map Editor** and select **Assets > Your Content**.
+4. Select the actor to place its token.
 
-## Stats Display
+Only actors already in the game appear in Maps. Placing one creates a linked map token without adding another copy to the game table.
 
-Linked tokens show two health bars directly below the token image:
+## Token Stats
 
-- **Wounds Bar (Red)**: Shows current wounds as a proportion of wound threshold
-- **Strain Bar (Blue)**: Shows current strain as a proportion of strain threshold
+Character tokens can show:
 
-![Two characters with strain and wound bars visible, one empty and one 
-partially filled to show each state](../../../../assets/guides/maps/features/character-tokens/stats.png)
+- Current wounds and wound threshold
+- Current strain and strain threshold
+- Character name
+- Minion group count
 
-The bars scale proportionally with the token size. Larger tokens get larger bars.
-When wounds or strain change, the bars animate smoothly rather than jumping to the
-new value, making it easy to see damage being applied during combat.
+Vehicle tokens can show:
+
+- Current hull trauma and threshold
+- Current system strain and threshold
+- Vehicle name
+- Crew portraits when crew assignments are available
+
+![Two characters with strain and wound bars visible, one empty and one partially filled to show each state](../../../../assets/guides/maps/features/character-tokens/stats.png)
+
+These values update when someone changes the linked sheet through Maps, the game table, or the Discord bot.
+
+<div style="max-width: 900px; margin-inline: auto;">
+
+![Linked character and vehicle tokens placed together on a map](../../../../assets/guides/maps/features/character-tokens/linked-tokens.jpg)
+
+</div>
 
 ## Minion Groups
 
-Linked tokens can represent multiple minions as a single visible asset. The
-system tracks how many minions remain active based on wounds dealt.
+A single token can represent a group of minions. The label shows the remaining count in the form `3/5`, and the wound bar scales to the group's full capacity.
 
-### The Elimination Counter
+A minion is defeated when wounds exceed its individual wound threshold. For a five-minion group with a threshold of 5:
 
-When a token is linked to a minion group with more than one character, the name
-label shows an elimination counter in the format **(remaining/total)**:
-
-> Stormtroopers (3/5)
-
-This tells you 3 of the original 5 stormtroopers are still standing.
+| Wounds | Minions Remaining |
+|--------|-------------------|
+| 0 to 5 | 5 |
+| 6 to 10 | 4 |
+| 11 to 15 | 3 |
+| 16 to 20 | 2 |
+| 21 to 25 | 1 |
 
 ![A minion group on the map](../../../../assets/guides/maps/features/character-tokens/minions.png)
 
-### How Elimination Works
-
-Minions are eliminated when wounds **exceed** their wound threshold, not when they
-equal it. The calculation is:
-
-```
-Minions eliminated = floor((current wounds - 1) / wound threshold)
-Remaining minions = total count - minions eliminated
-```
-
-With a wound threshold of 5 and a group of 5 minions:
-
-| Wounds | Minions Remaining | Why                                                |
-|--------|-------------------|----------------------------------------------------|
-| 0–5    | 5                 | No minion eliminated until wounds exceed threshold |
-| 6–10   | 4                 | First minion eliminated at 6 wounds                |
-| 11–15  | 3                 | Second minion eliminated at 11 wounds              |
-| 16–20  | 2                 | Third minion eliminated at 16 wounds               |
-| 21–25  | 1                 | Fourth minion eliminated at 21 wounds              |
-
-The wounds and strain bars also scale for minion groups. A group of 5 minions with
-threshold 5 has a total wounds capacity of 25, so the bar represents wounds out of 25.
+If defeated-token greyscale is enabled in [Settings](/docs/maps/features/settings-and-performance), the token image also changes as the group is eliminated.
 
 ## Visibility Levels
 
-Not every character should be fully visible to players. Maybe the party hasn't
-identified an NPC yet, or the GM wants to track an enemy without revealing its
-exact health. Visibility levels control what players can see about each character.
+The game table's actor visibility controls what players can learn from a linked token.
 
-| Visibility Level | Token               | Name          | Stats Bars |
-|------------------|---------------------|---------------|------------|
-| **Visible**      | ✓ Visible           | Shows "?????" | Hidden     |
-| **Known**        | ✓ Visible           | ✓ Visible     | Hidden     |
-| **Complete**     | ✓ Visible           | ✓ Visible     | ✓ Visible  |
-| **GM-only**      | Hidden from players | Hidden        | Hidden     |
+| Visibility | Token | Name | Stats and Sheet |
+|------------|-------|------|-----------------|
+| Visible | Shown | `?????` | Hidden |
+| Known | Shown | Shown | Hidden |
+| Full | Shown | Shown | Shown |
+| Hidden | Hidden | Hidden | Hidden |
 
-The GM always sees all tokens and names, with hidden names displayed in gold to
-indicate players can't see them.
+The GM always sees the real actor and can edit its visibility. A GM using [Player Preview](/docs/maps/features/gm-controls#preview-the-player-view) sees the player-facing result instead.
 
-## Character Name Labels
+Map visibility still applies on top of actor visibility. A token can also be hidden by:
 
-Linked tokens display the character's name in a label floating below the token.
-Labels are:
+- The asset's hidden toggle
+- A GM-only layer
+- Fog of war
+- Lighting concealment
 
-- Centered horizontally beneath the token
-- Displayed in white text with a dark background for readability
-- Updated automatically when character names change
-- Positioned in screen space, so they maintain consistent size regardless of zoom
+## Movement Permissions
 
-Labels respect visibility settings. If a character is set to "Visible" level, players
-see "?????" instead of the actual name. Labels also hide when:
+GMs can enable **Restrict Token Movement to Owners** in Settings. When it is on, players can move their own character tokens but can't move another player's token.
 
-- The token is under fog of war (for players)
-- The token is on a hidden layer
+The setting doesn't limit the GM. Asset locking, layer locking, and wall collision can still prevent movement for other reasons.
 
-## Character and Vehicle Sheets
+## Open the Quick Sheet
 
-When you select a character or vehicle token, a side panel opens showing
-the full stat block with inline editing for wounds, strain, hull trauma,
-and more. This lets you track stats during play without leaving the map.
+Select a linked character or vehicle token to open its [quick sheet](/docs/maps/features/sheets). The selected-asset action bar also has a Sheet button, so you can reopen a sheet after closing it without selecting another token.
 
-See [Character and Vehicle Sheets](/docs/maps/features/sheets) for the
-full breakdown of what the panel shows and how to use it.
+## Flip a Token
 
-## Flipping Tokens
+- `Shift` + `F` flips the current selection horizontally.
+- `Shift` + `V` flips the current selection vertically.
 
-Sometimes you need a token to face the other direction. Maybe your archer token
-faces left but you want them facing the enemy on the right. Rather than uploading
-a mirrored image, you can flip tokens directly on the map.
-
-**Keyboard shortcuts:**
-
-- **Shift+F**: Flip horizontally (mirror left-right)
-- **Shift+V**: Flip vertically (mirror up-down)
-
-These work on the currently selected token. If you have multiple tokens selected,
-all of them flip at once, mirroring around the center of the selection. This is
-useful for arranging formations: select a row of soldiers and flip them all to
-face the opposite direction in one action. This is also extremely useful 
-for tiling maps, especially when creating repeating patterns or formations.
+With several assets selected, Maps mirrors the full group around its center and flips each image. This works well for formations and repeated map tiles.
