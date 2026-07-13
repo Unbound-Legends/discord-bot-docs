@@ -57,8 +57,7 @@ jobs:
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Astro
-        run: |
-          ${{ steps.detect-package-manager.outputs.runner }} astro build \
+        run: npm run build
         working-directory: ${{ env.BUILD_PATH }}
 
       - uses: "google-github-actions/auth@v1"

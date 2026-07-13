@@ -3,7 +3,7 @@ title: Your First Session
 description: Walk through running your first RPG Sessions game from joining the table to rolling dice
 ---
 
-You've got a game table set up, players have joined, and it's time to actually play. This guide walks through what a typical session looks like on RPG Sessions, from both the GM and player perspective. If you haven't created a game yet, start with [Creating a Game](/docs/rpg-sessions/guides/creating-a-game) first.
+This guide covers the shared steps players and GMs use before, during, and after a session. If the table doesn't exist yet, start with [Creating a Game](/docs/rpg-sessions/guides/creating-a-game).
 
 ## Before the Session
 
@@ -15,11 +15,11 @@ If you haven't already, join the game using the invite link or game code from yo
 2. Click **Add Character** to bring a character to the table
 3. Choose an existing character from your library, or create a new one
 
-Your character is now at the table and visible to the group. You can still edit your sheet after adding it, so don't worry about having everything perfect before the session starts.
+You can continue editing the sheet after adding the character to the table.
 
 ### For GMs: Prep the Table
 
-Before your players arrive, you might want to:
+Before players arrive:
 
 - **Add NPCs** - Create NPC characters and add them to the game. You can build them ahead of time and pull them in when the encounter calls for it
 - **Set up encounters** - Group NPCs into encounters so you can deploy them quickly during play
@@ -29,7 +29,7 @@ Before your players arrive, you might want to:
 
 ### The Game Table
 
-When everyone opens the game, they land on the game table. This is the central hub for your session. The main areas you'll use during play:
+Everyone uses the same game table during play. The main areas are:
 
 - **Chat** - Where dice rolls, messages, and game events show up in a shared timeline
 - **Character sidebar** - Quick access to characters at the table
@@ -38,7 +38,7 @@ When everyone opens the game, they land on the game table. This is the central h
 
 ### Rolling Dice
 
-Dice rolling is the core of gameplay in narrative dice systems. On RPG Sessions, you build a dice pool and roll it, and the platform handles the symbol math.
+Build the dice pool in RPG Sessions and the result will include the calculated narrative symbols.
 
 To roll dice:
 
@@ -61,7 +61,7 @@ When combat or structured time starts, you'll want to track initiative.
 3. The tracker sorts slots by Success and Advantage, creating the turn order
 4. Players and NPCs claim slots each round
 
-The initiative tracker keeps everyone synchronized on whose turn it is, which is especially helpful when you're not all in the same room.
+The initiative tracker gives the group one shared turn order.
 
 ### Character Sheets During Play
 
@@ -96,10 +96,10 @@ When the session wraps up:
 
 ## What's Next
 
-Now that you've run a session, explore the features in more depth:
+Use these pages when you need more detail:
 
 - **[Game Table Overview](/docs/rpg-sessions/game-table)** - Detailed look at every part of the game table interface
-- **[Character Sheets](/docs/rpg-sessions/characters)** - Deep dive into character sheet features
+- **[Character Sheets](/docs/rpg-sessions/characters)** - Review the values and actions available on a character sheet
 - **[Sessions Maps](/docs/maps)** - Add tactical battle maps to your sessions
 - **[Discord Bot](/docs/discord-bot)** - Roll dice and view characters from Discord
 

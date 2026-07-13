@@ -19,7 +19,7 @@ If you already know your way around Maps, use these sections to find what you ne
 
 ## Build a Map
 
-- **[Asset Library and Backgrounds](/docs/maps/features/asset-library-and-backgrounds)**~~~~: Upload images and animated GIFs, organize folders, add tiled backgrounds, and import spritesheets.
+- **[Asset Library and Backgrounds](/docs/maps/features/asset-library-and-backgrounds)**: Upload images and animated GIFs, organize folders, add tiled backgrounds, and import spritesheets.
 - **[Grid System](/docs/maps/features/grid-system)**: Configure square or hex grids, snap assets into place, and build maps from tiles.
 - **[Layers](/docs/maps/features/layers)**: Separate backgrounds, props, tokens, and GM-only setup into ordered layers.
 - **[Fog of War](/docs/maps/features/fog-of-war)**: Cover and reveal parts of the map with adjustable brushes.

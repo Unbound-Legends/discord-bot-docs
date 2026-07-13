@@ -46,7 +46,7 @@ Upon execution, you might receive an output like:
 ### Important Notes
 
 - If you see **False** next to any of the required bot permissions (e.g., Manage Webhooks or Embed Links), make sure the bot has those permissions to function properly.
-- The command also provides links to resources for troubleshooting or taking action if something isn’t configured correctly.
+- The command also provides links to resources for troubleshooting or taking action if something isn't configured correctly.
   
 ### Additional Information
 

@@ -3,11 +3,11 @@ title: Character Sheets
 description: Overview of RPG Sessions character sheets for Star Wars RPG and Genesys
 ---
 
-Character sheets on RPG Sessions are full digital versions of the paper sheets you'd use at a physical table. They track everything your system needs: characteristics, skills, talents, equipment, weapons, injuries, and all the fiddly bits that make your character tick. Changes save automatically and sync in real-time, so your GM always has an accurate picture of your character's current state.
+RPG Sessions character sheets track the values you would normally keep on paper, including characteristics, skills, talents, equipment, weapons, injuries, wounds, and strain. Changes save automatically and update anywhere the character is in use.
 
 ## Star Wars RPG vs Genesys
 
-RPG Sessions supports two game systems, and each has its own character sheet template tailored to the rules.
+Star Wars RPG and Genesys use separate sheet templates so each system can expose the fields and rules it needs.
 
 ### Star Wars RPG Sheets
 
@@ -32,15 +32,15 @@ Designed for the generic Genesys system. These sheets are setting-neutral and co
 - **Weapons and equipment** - Gear management with customizable stat blocks
 - **Wound and strain thresholds** - Same real-time tracking as Star Wars sheets
 
-The Genesys sheets focus on the universal rules and leave setting-specific flavor to your group.
+Genesys sheets cover the universal rules while leaving setting-specific details open for your group.
 
 ## Key Sections
 
-Regardless of system, every character sheet is organized into consistent sections.
+Both sheet types group related values into the same general sections.
 
 ### Characteristics and Skills
 
-Your six characteristics and their associated skills form the foundation of your sheet. Skills show your rank and whether the skill is a career skill, and clicking a skill builds the correct dice pool for you automatically.
+Skills show their rank and career status alongside the characteristic used to build the base dice pool. Select a skill to start a roll from those values.
 
 ### Talents
 
@@ -52,7 +52,7 @@ Weapons include damage, critical rating, range, special qualities, and any attac
 
 ### Wound and Strain
 
-Current wound and strain values display prominently and update everywhere in real-time. When you take damage during a session, updating your sheet immediately reflects the change in the game table sidebar, character tokens on Maps, and anywhere else your character appears.
+Wound and strain values appear on the sheet and update anywhere the character is shown. During a session, the game table and Maps tokens reflect changes made to those values.
 
 ## Character Management
 
@@ -67,11 +67,11 @@ Already have a character built in another tool? RPG Sessions supports importing 
 - **OggDude's Character Generator** - The popular Star Wars RPG desktop character builder
 - **SWCharGen Emporium** - Community character generator
 
-Import brings over characteristics, skills, talents, and equipment so you don't have to rebuild from scratch.
+An import can bring over characteristics, skills, talents, and equipment so you don't have to enter each value again.
 
 ### Characters Across Games
 
-Characters aren't locked to a single game table. You can add the same character to multiple games, and changes sync across all of them. This is useful if you play the same character in multiple campaigns or want to keep a character sheet updated outside of active games.
+Characters aren't locked to one game table. You can add the same character to more than one game and continue managing the sheet from your library.
 
 ## What's Next
 

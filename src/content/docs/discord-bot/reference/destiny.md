@@ -69,7 +69,7 @@ The `/destiny roll` subcommand is used to roll dice to add new destiny points to
 
 ### Overview
 
-The `/destiny use` subcommand allows players to use a specified number of destiny points to influence the story. Players can choose whether to use Light side (Player points) or Dark side (GM points), and the specified amount is then converted to the opposite type, representing a balance shift in the game. This command is helpful for dynamically managing the game’s destiny pool during key moments.
+The `/destiny use` subcommand allows players to use a specified number of destiny points to influence the story. Players can choose whether to use Light side (Player points) or Dark side (GM points), and the specified amount is then converted to the opposite type, representing a balance shift in the game. Use this command to manage the game's destiny pool during play.
 
 ### Command Options
 

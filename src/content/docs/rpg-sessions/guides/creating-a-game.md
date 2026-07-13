@@ -3,7 +3,7 @@ title: Creating a Game
 description: Set up a game table on RPG Sessions, configure your settings, and invite players
 ---
 
-A game table is the shared space where your group plays together. It holds your player roster, shared dice rolls, initiative tracker, encounters, and all the session data for your campaign. Whether you're a GM starting a new campaign or setting up a one-shot, this guide covers creating and configuring your table.
+A game table holds the player roster, shared rolls, initiative, encounters, and settings for a campaign or one-shot. Create the table first, then invite the rest of the group.
 
 ## Creating a New Game
 
@@ -16,7 +16,7 @@ A game table is the shared space where your group plays together. It holds your 
 5. Upload an optional **game image** to make it easy to spot in everyone's game list
 6. Click **Create**
 
-Your game table is now live. You'll land on the game page, ready to configure settings and invite players.
+After creation, RPG Sessions opens the game page so you can configure the table and invite players.
 
 :::tip
 The system you choose determines which character sheet template players use. Star Wars RPG sheets include Force ratings, obligation/duty/morality, and Star Wars-specific gear. Genesys sheets are system-neutral and adapt to whatever setting you're running.
@@ -47,17 +47,17 @@ Once players join, they'll appear in your game's player list. They can then add 
 
 ## Table Tokens
 
-Table tokens are a way for Patreon supporters to share their subscription benefits with a specific game table. If you have an active Patreon subscription, you can assign a table token to a game, which unlocks premium features (like [Sessions Maps](/docs/maps)) for everyone at that table, not just you.
+Table tokens share Patreon access with one game table. Assigning an eligible token gives everyone at that table access to supported features such as [Sessions Maps](/docs/maps).
 
 :::note[Patreon Required]
 Table tokens come with **Adventurer tier or higher** Patreon subscriptions. Each subscription tier provides a different number of tokens you can distribute across your games. [Support us on Patreon](https://www.patreon.com/rpgsessions) to unlock premium features for your group.
 :::
 
-This means a single patron in your group can unlock Maps and other premium features for the whole table. The token stays assigned until you move it to a different game.
+One eligible patron can provide access for the whole table. The token remains assigned until its owner moves it to another game.
 
 ## What's Next
 
-Your game table is set up and your players are in. Time to play:
+Continue with one of these guides:
 
 - **[Your First Session](/docs/rpg-sessions/guides/your-first-session)** - Walk through running a session from start to finish
 - **[Game Table Overview](/docs/rpg-sessions/game-table)** - Explore the game table interface in detail

@@ -3,13 +3,11 @@ title: Game Table
 description: Overview of the RPG Sessions game table interface and features
 ---
 
-The game table is where your group comes together to play. It's the shared space that holds your campaign's characters, dice rolls, initiative tracking, and session history. When you open a game on RPG Sessions, this is what you're looking at.
-
-This page gives you an overview of the game table layout and what each section does. If you haven't created a game yet, start with [Creating a Game](/docs/rpg-sessions/guides/creating-a-game).
+The game table holds the characters, rolls, initiative, and other shared state for a game. If you haven't created one yet, start with [Creating a Game](/docs/rpg-sessions/guides/creating-a-game).
 
 ## Table Layout
 
-The game table is organized around a few key areas that you'll use throughout every session.
+These are the main areas used during a session.
 
 ### Chat
 
@@ -19,11 +17,11 @@ The chat panel is the central timeline of your session. It shows:
 - **Messages** from players and the GM
 - **Game events** like initiative rolls and encounter updates
 
-Everything that happens during a session flows through chat, giving you a running log of the action. Chat history is preserved between sessions, so you can scroll back to see what happened last time.
+Chat keeps rolls, messages, and supported game events in one timeline. Its history remains available when the group returns for another session.
 
 ### Character Sidebar
 
-The character sidebar shows everyone who's at the table. From here you can:
+The character sidebar shows the actors currently at the table. From here you can:
 
 - See which characters are in the game
 - Click a character to open their sheet
@@ -64,7 +62,7 @@ GMs can configure the game table from the settings page:
 
 ## What's Next
 
-Explore specific features of the game table in more detail:
+Continue with the part of the game table you want to set up next:
 
 - **[Character Sheets](/docs/rpg-sessions/characters)** - How character and vehicle sheets work
 - **[Your First Session](/docs/rpg-sessions/guides/your-first-session)** - End-to-end walkthrough of running a session

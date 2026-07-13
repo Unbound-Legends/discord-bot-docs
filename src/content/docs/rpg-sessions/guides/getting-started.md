@@ -3,7 +3,7 @@ title: Getting Started
 description: Create your RPG Sessions account, learn the dashboard, and connect your Discord
 ---
 
-If you're here, you've probably heard about RPG Sessions from your gaming group or stumbled across it looking for a way to play Star Wars RPG or Genesys online. This guide walks you through creating an account, finding your way around, and getting set up so you're ready to join (or create) your first game.
+Start here if you need to create an RPG Sessions account, find your games and characters, or connect Discord before joining a table.
 
 ## Creating an Account
 
@@ -13,17 +13,17 @@ After your account is set up, you can link your Discord account from your profil
 
 ## The Dashboard
 
-Your dashboard is home base. Everything you need is accessible from here.
+The dashboard shows the games and characters connected to your account.
 
 ### My Games
 
-This is where you'll find every game table you belong to, whether you created it or were invited. Each game card shows the game name, system (Star Wars RPG or Genesys), and how many players are in the group. Click a game to open it.
+This section lists every game table you created or joined. Each card shows the game name, system, and player count. Select a game to open its table.
 
-If you haven't joined any games yet, this section will be empty. That's fine. You can [create your own game](/docs/rpg-sessions/guides/creating-a-game) or join one using a game code from your GM.
+If the list is empty, you can [create a game](/docs/rpg-sessions/guides/creating-a-game) or join one with a code from your GM.
 
 ### My Characters
 
-All your characters across every game live here. You can browse, edit, and manage characters without opening a specific game first. Characters aren't locked to a single game, so you can use the same character sheet in multiple tables if needed.
+Your character library is available outside any individual game. You can open and manage a sheet here, then add that character to a game table when you need it.
 
 ### Navigation
 
@@ -49,7 +49,7 @@ You don't need to link Discord to use the web platform. It's only required if yo
 
 ## What's Next
 
-You've got an account and you know your way around. Here's where to go from here:
+Choose the next guide based on what you need to do:
 
 - **Starting a campaign?** [Create a game table](/docs/rpg-sessions/guides/creating-a-game) and invite your players
 - **Joining someone else's game?** Ask your GM for the game code or invite link
