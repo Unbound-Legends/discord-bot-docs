@@ -1,67 +1,65 @@
 ---
 title: Creating a Game
-description: Set up a game table on RPG Sessions, configure your settings, and invite players
+description: Create a game, choose its theme and dice, configure joining, and share the table with players.
+pageType: guide
+audience: [gm]
+surface: games
+systems: [all]
+appRoutes: ["/game", "/game/$gameId/settings", "/game/$gameId/table"]
+requirements:
+  signedIn: true
+  role: gm
+verifiedAt: "2026-07-13"
+verifiedContexts: [source-reviewed, signed-in, gm, admin, desktop]
 ---
 
-A game table holds the player roster, shared rolls, initiative, encounters, and settings for a campaign or one-shot. Create the table first, then invite the rest of the group.
+A game gives your group one roster, Game Table, chat history, initiative tracker, encounter list, and set of table settings. The same setup works for a long campaign or a one-shot.
 
-## Creating a New Game
+## Create the game
 
-1. From your dashboard, click **Create Game**
-2. Choose your game system:
-   - **Star Wars RPG** - Edge of the Empire, Age of Rebellion, Force and Destiny (all three share the same dice and mechanics)
-   - **Genesys** - The generic narrative dice system
-3. Give your game a **name** (your campaign title, one-shot name, or whatever your group calls it)
-4. Add an optional **description** to help players know what they're signing up for
-5. Upload an optional **game image** to make it easy to spot in everyone's game list
-6. Click **Create**
+1. Open **Games** from the top navigation.
+2. Select **New Game**.
+3. Enter a **Game Name**.
+4. Choose a **Game Theme**. The theme controls the system presentation and available sheet conventions.
+5. Choose a **Dice Theme**.
+6. Select **Create Game**.
 
-After creation, RPG Sessions opens the game page so you can configure the table and invite players.
+<div style="max-width: 760px; margin-inline: auto;">
 
-:::tip
-The system you choose determines which character sheet template players use. Star Wars RPG sheets include Force ratings, obligation/duty/morality, and Star Wars-specific gear. Genesys sheets are system-neutral and adapt to whatever setting you're running.
-:::
+![Create New Game dialog with fields for game name, game theme, and dice theme](../../../../assets/guides/rpg-sessions/games/create-game.png)
 
-## Game Settings
+</div>
 
-After creating your game, you can adjust settings from the game's settings page. Key options include:
+The creation dialog only asks for these three values. Once the game exists, use its settings to add the cover image, joining rules, game masters, critical tables, story-point style, and other options.
 
-- **Game name and description** - Update these any time
-- **Game image** - Swap out the cover image
-- **Dice settings** - Configure how dice results are displayed
-- **Session logging** - Control what gets logged in the game's history
+## Configure the table
 
-## Inviting Players
+Open the game's **Settings** control. Review these areas before sharing the game:
 
-There are two ways to get players into your game:
+- **Game Masters:** Add another GM if someone else needs full table controls.
+- **Appearance:** Update the game name, image, game theme, and dice theme.
+- **Rules:** Configure Force dice, player and GM point styles, and the character and vehicle critical tables used by the game.
+- **Joining:** Turn **Allow New Players** on when you're ready to invite the group.
+- **Drop-In Mode:** Use a shared table experience with an optional password when that better fits the session.
+- **Game seed:** Review the setting if your group uses seeded game data.
 
-### Share Link
+Settings vary with the game theme and the table's access. If you don't see an option from this guide, check your role and the table's current access.
 
-Every game has a unique invite link. Share it with your players and they can join directly. They'll need an RPG Sessions account (or will be prompted to create one).
+## Invite players
 
-### Game Code
+1. Make sure **Allow New Players** is enabled.
+2. Copy the game link using the link control in the game header.
+3. Send that link to the players.
+4. Ask each player to open it while signed in and choose **Join Game**.
 
-Each game also has a short game code. Players can enter this code on the site to find and join your game. This is useful when a link isn't convenient, like when you're sharing the code over voice chat.
+Players join through the game link. They don't need a separate game code.
 
-Once players join, they'll appear in your game's player list. They can then add characters to the table from their character library or create new ones.
+## Prepare the roster
 
-## Table Tokens
+From the **Overview** tab, add the characters and vehicles that should be available at the table. You can also prepare adversaries and group them into [encounters](/docs/rpg-sessions/game-table/encounters-and-statistics) before play.
 
-Table tokens share Patreon access with one game table. Assigning an eligible token gives everyone at that table access to supported features such as [Sessions Maps](/docs/maps).
+## Next steps
 
-:::note[Patreon Required]
-Table tokens come with **Adventurer tier or higher** Patreon subscriptions. Each subscription tier provides a different number of tokens you can distribute across your games. [Support us on Patreon](https://www.patreon.com/rpgsessions) to unlock premium features for your group.
-:::
-
-One eligible patron can provide access for the whole table. The token remains assigned until its owner moves it to another game.
-
-## What's Next
-
-Continue with one of these guides:
-
-- **[Your First Session](/docs/rpg-sessions/guides/your-first-session)** - Walk through running a session from start to finish
-- **[Game Table Overview](/docs/rpg-sessions/game-table)** - Explore the game table interface in detail
-- **[Character Sheets](/docs/rpg-sessions/characters)** - Learn how character sheets work
-- **[Connect to Discord](/docs/guides/connect-sessions-account)** - Link your game table to a Discord channel for bot integration
-
-Need help? Join the [community Discord](https://discord.gg/DfEkRzUbjk) for support.
+- [Manage game masters and membership](/docs/rpg-sessions/games/manage-membership)
+- [Review joining, settings, and Drop-In Mode](/docs/rpg-sessions/games/join-settings-and-drop-in)
+- [Run your first session](/docs/rpg-sessions/guides/your-first-session)

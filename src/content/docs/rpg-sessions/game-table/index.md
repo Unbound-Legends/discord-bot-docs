@@ -1,72 +1,55 @@
 ---
 title: Game Table
-description: Overview of the RPG Sessions game table interface and features
+description: Learn the Overview, Encounters, Map Editor, and Stats tabs of the RPG Sessions Game Table.
+pageType: landing
+audience: [player, gm]
+surface: game-table
+systems: [all]
+appRoutes: ["/game/$gameId/table"]
+requirements:
+  signedIn: true
+verifiedAt: "2026-07-13"
+verifiedContexts: [source-reviewed, signed-in, gm, admin, desktop]
 ---
 
-The game table holds the characters, rolls, initiative, and other shared state for a game. If you haven't created one yet, start with [Creating a Game](/docs/rpg-sessions/guides/creating-a-game).
+Use the Game Table as your shared workspace during a session. It brings the actor roster, sheets, dice, story points, chat, initiative, encounters, statistics, and Map Editor together.
 
-## Table Layout
+<div style="max-width: 1080px; margin-inline: auto;">
 
-These are the main areas used during a session.
+![Echoes of the Rim Game Table showing the Overview tab, actor roster, status bars, game controls, and chat button](../../../../assets/guides/rpg-sessions/game-table/overview.png)
 
-### Chat
+</div>
 
-The chat panel is the central timeline of your session. It shows:
+## Header controls
 
-- **Dice rolls** with full symbol breakdowns
-- **Messages** from players and the GM
-- **Game events** like initiative rolls and encounter updates
+The header shows the game name, shared point pool, and the controls available to your role. GMs can open their tools and settings from here. Use the link control for invitations, or the exit control to return to **Games**.
 
-Chat keeps rolls, messages, and supported game events in one timeline. Its history remains available when the group returns for another session.
+## Overview
 
-### Character Sidebar
+**Overview** is where you'll spend most of the session. The left side groups characters, vehicles, and adversaries. Select an actor to open its sheet in the center, or scan the roster for its wounds, strain, hull trauma, and system strain.
 
-The character sidebar shows the actors currently at the table. From here you can:
+Use [Roster, Dice, and Story Points](/docs/rpg-sessions/game-table/roster-dice-and-story-points) for the shared play controls.
 
-- See which characters are in the game
-- Click a character to open their sheet
-- Check wound and strain status at a glance
-- As a GM, see both player characters and NPCs
+## Encounters
 
-### Dice Tray
+Use **Encounters** to prepare groups of adversaries and vehicles. Review the members before you activate the encounter and bring those actors into play.
 
-The dice tray is where you build and roll dice pools. Add dice by type (Ability, Proficiency, Difficulty, Challenge, Boost, Setback, Force), then roll. Results calculate automatically and post to chat.
+[Encounters and Statistics](/docs/rpg-sessions/game-table/encounters-and-statistics) covers preparation and activation.
 
-You can also roll directly from character sheets, which pre-builds the pool based on skill and characteristic ranks.
+## Map Editor
 
-### Initiative Tracker
+**Map Editor** opens Sessions Maps inside the Game Table. When your table has access, you'll find maps, tokens, sheets, fog, lighting, walls, range bands, initiative, loot, and the other map tools there.
 
-When structured encounters begin, the initiative tracker organizes turn order. Characters roll initiative, results sort by Success and Advantage, and the tracker manages slot assignment each round.
+See the [Sessions Maps documentation](/docs/maps) for the complete workflow.
 
-The tracker supports both PC and NPC slots, so GMs can manage enemy turns alongside player turns without a separate system.
+## Stats
 
-## GM vs Player View
+The **Stats** tab summarizes player roll activity recorded for the game. A new or quiet table may show that no player rolls are available yet.
 
-GMs and players see the same core interface, but GMs have additional controls:
+## Chat and initiative
 
-- **NPC management** - GMs can add, edit, and remove NPCs from the table
-- **Encounter controls** - Create and deploy encounters with pre-built NPC groups
-- **Game settings** - Only GMs can modify table settings, dice configuration, and session logging
-- **Initiative management** - GMs can manually adjust the initiative tracker when needed
+Use the round chat button in the lower corner to open the combined initiative and history panel. It stays available across the table tabs.
 
-Players see their own characters, the shared chat, and the dice tray. They can view (but not edit) NPC sheets that the GM has made visible.
+[Initiative and Chat](/docs/rpg-sessions/game-table/initiative-and-chat) explains messages, channels, privacy, attachments, and initiative slots.
 
-## Game Settings
-
-GMs can configure the game table from the settings page:
-
-- **Game info** - Name, description, and game image
-- **Dice settings** - Display preferences for dice results
-- **Session logging** - What events get recorded in the game's history
-- **Player management** - View the player roster and manage access
-
-## What's Next
-
-Continue with the part of the game table you want to set up next:
-
-- **[Character Sheets](/docs/rpg-sessions/characters)** - How character and vehicle sheets work
-- **[Your First Session](/docs/rpg-sessions/guides/your-first-session)** - End-to-end walkthrough of running a session
-- **[Sessions Maps](/docs/maps)** - Add tactical battle maps to your game table
-- **[Connect to Discord](/docs/guides/connect-sessions-account)** - Sync your game table with a Discord channel
-
-Need help? Join the [community Discord](https://discord.gg/DfEkRzUbjk) for support.
+Players and GMs don't see all of the same controls. If something is missing, check [Roles and Visibility](/docs/rpg-sessions/reference/roles-and-visibility) before assuming the table is broken.

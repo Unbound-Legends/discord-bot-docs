@@ -146,6 +146,23 @@ for (const file of docFiles) {
 
 for (const document of documents) {
   const frontmatter = getFrontmatter(document.content);
+  const relativeFile = path.relative(root, document.file).replace(/\\/g, '/');
+
+  if (relativeFile.startsWith('src/content/docs/rpg-sessions/')) {
+    const requiredMetadata = ['pageType', 'audience', 'surface', 'systems', 'appRoutes', 'verifiedAt', 'verifiedContexts'];
+
+    for (const field of requiredMetadata) {
+      if (!new RegExp(`^${field}:`, 'm').test(frontmatter)) {
+        errors.push(`${relativeFile}: missing required RPG Sessions metadata: ${field}`);
+      }
+    }
+
+    const verifiedAt = frontmatter.match(/^verifiedAt:\s*['"]?(\d{4}-\d{2}-\d{2})['"]?\s*$/m)?.[1];
+    if (verifiedAt && Number.isNaN(Date.parse(`${verifiedAt}T00:00:00Z`))) {
+      errors.push(`${relativeFile}: verifiedAt is not a valid calendar date: ${verifiedAt}`);
+    }
+  }
+
   const heroImage = frontmatter.match(/^hero:\s*\n[\s\S]*?^  image:\s*\n((?:^    .*\n?)*)/m)?.[1];
   if (heroImage?.match(/^    file:/m) && !heroImage.match(/^    alt:\s*\S/m)) {
     errors.push(`${path.relative(root, document.file)}: hero image alt text is empty`);
@@ -197,7 +214,7 @@ for (const document of documents) {
     }
   }
 
-  for (const marker of ['MAPS_IMAGE_TODO', '~~~~']) {
+  for (const marker of ['MAPS_IMAGE_TODO', 'RPG_SESSIONS_IMAGE_TODO', '~~~~']) {
     const index = document.content.indexOf(marker);
     if (index !== -1) {
       errors.push(`${path.relative(root, document.file)}:${lineNumber(document.content, index)}: unfinished marker ${marker}`);

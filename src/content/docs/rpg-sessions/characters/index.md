@@ -1,83 +1,59 @@
 ---
 title: Character Sheets
-description: Overview of RPG Sessions character sheets for Star Wars RPG and Genesys
+description: Find the rolls, resources, equipment, progression, and system-specific sections on character and adversary sheets.
+pageType: landing
+audience: [player, gm, sheet-builder]
+surface: character-sheet
+systems: [all]
+appRoutes: ["/char/$characterId", "/char/$characterId/print"]
+requirements:
+  signedIn: true
+verifiedAt: "2026-07-13"
+verifiedContexts: [source-reviewed, signed-in, gm, admin, desktop]
 ---
 
-RPG Sessions character sheets track the values you would normally keep on paper, including characteristics, skills, talents, equipment, weapons, injuries, wounds, and strain. Changes save automatically and update anywhere the character is in use.
+Your character sheet keeps check values, resources, equipment, injuries, progression, and notes together. Player characters and adversaries share the same basic layout, while the game theme and character type decide which fields you see.
 
-## Star Wars RPG vs Genesys
+<div style="max-width: 1080px; margin-inline: auto;">
 
-Star Wars RPG and Genesys use separate sheet templates so each system can expose the fields and rules it needs.
+![Character sheet for Jabb Forth showing wound and strain thresholds, defense, characteristics, and skills](../../../../assets/guides/rpg-sessions/characters/character-sheet.png)
 
-### Star Wars RPG Sheets
+</div>
 
-Built for Edge of the Empire, Age of Rebellion, and Force and Destiny. These sheets include:
+## Sheet header
 
-- **Characteristics** - Brawn, Agility, Intellect, Cunning, Willpower, Presence
-- **Skills** - The full Star Wars RPG skill list with career and rank tracking
-- **Talents** - All published talent trees with ranked tracking and descriptions
-- **Force powers** - Force rating, powers, and upgrades with the full power tree structure
-- **Obligation / Duty / Morality** - System-specific motivation mechanics depending on your game's era
-- **Weapons and equipment** - Gear with full stat blocks, attachments, and modifications
-- **Injuries** - Critical injury tracking with severity and effects
-- **Wound and strain thresholds** - Current and threshold values that update across the platform
+The top of the sheet shows the portrait, name, descriptive details, and system markers. Depending on your access, the action buttons let you update, print, clone, or edit the sheet.
 
-### Genesys Sheets
+Open **More Character Information** for identity, background, motivation, and the other descriptive fields supported by the theme.
 
-Designed for the generic Genesys system. These sheets are setting-neutral and cover the core mechanics:
+## Core play values
 
-- **Characteristics** - The six core characteristics used across all Genesys settings
-- **Skills** - The Genesys skill list with career marking and rank tracking
-- **Talents** - Talent tracking with tier, activation, and description fields
-- **Weapons and equipment** - Gear management with customizable stat blocks
-- **Wound and strain thresholds** - Same real-time tracking as Star Wars sheets
+- **Soak, wounds, and strain** track durability and current damage.
+- **Defense** separates melee and ranged defense where the system uses both.
+- **Characteristics** set the base values for skill checks.
+- **Skills** show ranks, career status, and the linked characteristic.
 
-Genesys sheets cover the universal rules while leaving setting-specific details open for your group.
+Select a skill to begin a roll from the sheet. See [Characteristics and Rolls](/docs/rpg-sessions/characters/rolls-and-characteristics).
 
-## Key Sections
+## Equipment and progression
 
-Both sheet types group related values into the same general sections.
+Farther down the sheet you can manage weapons, armor, gear, attachments, encumbrance, critical injuries, talents, XP, credits, notes, and system-specific narrative mechanics. The exact set depends on the game theme and the optional mechanics selected when the character was created.
 
-### Characteristics and Skills
+[Health, Equipment, and Progression](/docs/rpg-sessions/characters/health-equipment-and-progression) explains how these sections work together.
 
-Skills show their rank and career status alongside the characteristic used to build the base dice pool. Select a skill to start a roll from those values.
+## Player characters and adversaries
 
-### Talents
+The character type is chosen during creation:
 
-Talents are tracked with their name, description, rank (if ranked), and activation type. For Star Wars RPG, talent trees maintain their structure so you can track prerequisites and progression.
+- **Player** is the full player-character workflow.
+- **Minion** supports grouped adversaries.
+- **Rival** represents a capable adversary without the full player-character structure.
+- **Nemesis** supports major adversaries with the broadest adversary tracking.
 
-### Equipment and Weapons
+Use the type that matches the rules your group applies. Character type affects how the actor is presented in the Library, encounters, game table, and Maps.
 
-Weapons include damage, critical rating, range, special qualities, and any attached modifications. General equipment tracks encumbrance, quantity, and descriptions. You can add custom items for anything not in the standard lists.
+## Connected surfaces
 
-### Wound and Strain
+The same sheet can appear in your Library, one or more games, the Game Table, and Sessions Maps. When you update wounds, strain, the name, the portrait, or another shared value, every one of those views reads the change from the same source sheet.
 
-Wound and strain values appear on the sheet and update anywhere the character is shown. During a session, the game table and Maps tokens reflect changes made to those values.
-
-## Character Management
-
-### Creating Characters
-
-You can create new characters from your dashboard or directly within a game table. Choose your system (Star Wars RPG or Genesys), fill in the basics, and build out from there.
-
-### Importing Characters
-
-Already have a character built in another tool? RPG Sessions supports importing from:
-
-- **OggDude's Character Generator** - The popular Star Wars RPG desktop character builder
-- **SWCharGen Emporium** - Community character generator
-
-An import can bring over characteristics, skills, talents, and equipment so you don't have to enter each value again.
-
-### Characters Across Games
-
-Characters aren't locked to one game table. You can add the same character to more than one game and continue managing the sheet from your library.
-
-## What's Next
-
-- **[Getting Started](/docs/rpg-sessions/guides/getting-started)** - Set up your account and find your way around
-- **[Game Table Overview](/docs/rpg-sessions/game-table)** - See how characters fit into the game table
-- **[Your First Session](/docs/rpg-sessions/guides/your-first-session)** - Walk through using your character in a live session
-- **[Sessions Maps](/docs/maps)** - See your characters as tokens on tactical battle maps
-
-Need help? Join the [community Discord](https://discord.gg/DfEkRzUbjk) for support.
+To create or import a character, start in the [Library](/docs/rpg-sessions/library).

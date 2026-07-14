@@ -1,106 +1,68 @@
 ---
 title: Your First Session
-description: Walk through running your first RPG Sessions game from joining the table to rolling dice
+description: Prepare the roster, roll from sheets, use chat and initiative, and wrap up your first RPG Sessions game.
+pageType: guide
+audience: [player, gm]
+surface: game-table
+systems: [all]
+appRoutes: ["/game/$gameId/table", "/char/$characterId", "/vehicle/$vehicleId"]
+requirements:
+  signedIn: true
+verifiedAt: "2026-07-13"
+verifiedContexts: [source-reviewed, signed-in, gm, admin, desktop]
 ---
 
-This guide covers the shared steps players and GMs use before, during, and after a session. If the table doesn't exist yet, start with [Creating a Game](/docs/rpg-sessions/guides/creating-a-game).
+Use this checklist to take your Game Table from preparation through the end of play. If you don't have a table yet, start with [Creating a Game](/docs/rpg-sessions/guides/creating-a-game).
 
-## Before the Session
+## Before the session
 
-### For Players: Join and Add a Character
+### Players
 
-If you haven't already, join the game using the invite link or game code from your GM. Once you're in:
+1. Open the link shared by your GM and join the game if prompted.
+2. Make sure your character exists in your [Library](/docs/rpg-sessions/library).
+3. Ask the GM to add the character to the game, or add it yourself when the table allows that action.
+4. Open the sheet and confirm wounds, strain, equipment, XP, and other values are current.
 
-1. Open the game table
-2. Click **Add Character** to bring a character to the table
-3. Choose an existing character from your library, or create a new one
+### Game masters
 
-You can continue editing the sheet after adding the character to the table.
+1. Open the game's **Overview** tab.
+2. Add the player characters, vehicles, and adversaries needed for the session.
+3. Create reusable adversary groups in the **Encounters** tab.
+4. Check the game settings, especially joining, story points, dice theme, and critical tables.
+5. Prepare a Map if your table uses [Sessions Maps](/docs/maps).
 
-### For GMs: Prep the Table
+## During the session
 
-Before players arrive:
+### Select an actor
 
-- **Add NPCs** - Create NPC characters and add them to the game. You can build them ahead of time and pull them in when the encounter calls for it
-- **Set up encounters** - Group NPCs into encounters so you can deploy them quickly during play
-- **Configure settings** - Double-check your dice and session logging preferences
+The left roster separates characters, vehicles, and adversaries. Select an actor to open its sheet in the center of the table. Wounds, strain, hull trauma, and system strain stay connected to that sheet.
 
-## During the Session
+### Roll dice
 
-### The Game Table
+For a skill check, select the skill on the character sheet. RPG Sessions builds the base pool from the linked characteristic and skill ranks. Add any situational dice, upgrades, downgrades, or Force dice, then roll.
 
-Everyone uses the same game table during play. The main areas are:
+You can also use the table dice controls for an unlinked check. Results appear in the shared history with the calculated narrative symbols.
 
-- **Chat** - Where dice rolls, messages, and game events show up in a shared timeline
-- **Character sidebar** - Quick access to characters at the table
-- **Dice tray** - Build and roll dice pools
-- **Initiative tracker** - Track turn order during structured encounters
+### Use story points
 
-### Rolling Dice
+The story-point control appears in the game header. The game's settings determine the labels and presentation used for player and GM points.
 
-Build the dice pool in RPG Sessions and the result will include the calculated narrative symbols.
+### Use chat and initiative
 
-To roll dice:
+Open the round chat button in the lower corner. The panel contains initiative slots, history and messages, channels, search, pinned content, chapters, privacy controls, formatting, images, and table drops. See [Initiative and Chat](/docs/rpg-sessions/game-table/initiative-and-chat).
 
-1. Open the **dice tray**
-2. Add dice to your pool (Ability, Proficiency, Difficulty, Challenge, Boost, Setback, and Force dice)
-3. Click **Roll**
+### Activate an encounter
 
-The result appears in the chat with a full breakdown: total Successes, Failures, Advantages, Threats, Triumphs, Despairs, and (for Force dice) Light and Dark Side pips. Everyone at the table sees the result.
+Open **Encounters**, select a prepared encounter, review its actors, and choose **Activate Encounter**. Confirm the roster after activation instead of relying only on the dialog closing.
 
-:::tip
-You can also roll directly from your character sheet. When you click a skill, RPG Sessions automatically builds the dice pool based on your characteristic and skill ranks. You just add situational dice (Boost, Setback, upgrades) and roll.
-:::
+## After the session
 
-### Initiative
+- Update XP, credits, wounds, strain, critical injuries, cargo, and notes on the relevant sheets.
+- Review roll history or table statistics if you need a record of the session.
+- Keep the game active for the next session. Archive it from the game settings only when you want it removed from the normal Games list.
 
-When combat or structured time starts, you'll want to track initiative.
+RPG Sessions saves sheet and game changes as you work, so there's no separate end-of-session save button.
 
-1. Characters roll their initiative (Cool or Vigilance for Star Wars RPG)
-2. The results populate the initiative tracker
-3. The tracker sorts slots by Success and Advantage, creating the turn order
-4. Players and NPCs claim slots each round
+## If something doesn't match
 
-The initiative tracker gives the group one shared turn order.
-
-### Character Sheets During Play
-
-Players can open their full character sheet at any time during the session. Common actions during play:
-
-- **Taking damage** - Update wound and strain values as you take hits
-- **Using abilities** - Reference talents, force powers, and special abilities
-- **Managing inventory** - Track ammunition, credits, and gear usage
-- **Spending experience** - If your GM awards XP mid-session, you can spend it right away
-
-Changes to character sheets are reflected everywhere in real-time. If a player updates their wound count, the GM sees it immediately.
-
-## After the Session
-
-When the session wraps up:
-
-- **Character changes persist** - Everything players updated during the session is saved automatically. No export or manual save needed.
-- **Session history** - Dice rolls and game events are logged in the game's history, so you can review what happened if needed
-- **XP and rewards** - GMs can award experience and players can spend it between sessions on the character sheet
-
-## Tips for GMs
-
-- **Pre-build NPC encounters** before the session so you can drop them in without building characters on the fly
-- **Use the initiative tracker** even for simple encounters. It's faster than tracking turn order manually and keeps remote players in the loop
-- **Encourage players to roll from their sheets** instead of manually building dice pools. It's faster and reduces mistakes with skill ranks
-
-## Tips for Players
-
-- **Keep your sheet updated** during play, especially wounds and strain. Your GM is relying on those numbers being current
-- **Roll from your character sheet** when making skill checks. It builds the correct base pool automatically
-- **Bookmark your game** for quick access. You'll be coming back to the same table every session
-
-## What's Next
-
-Use these pages when you need more detail:
-
-- **[Game Table Overview](/docs/rpg-sessions/game-table)** - Detailed look at every part of the game table interface
-- **[Character Sheets](/docs/rpg-sessions/characters)** - Review the values and actions available on a character sheet
-- **[Sessions Maps](/docs/maps)** - Add tactical battle maps to your sessions
-- **[Discord Bot](/docs/discord-bot)** - Roll dice and view characters from Discord
-
-Need help? Join the [community Discord](https://discord.gg/DfEkRzUbjk) for support.
+Players and GMs don't see all of the same controls, and some tools depend on game settings or table access. Use [Roles and Visibility](/docs/rpg-sessions/reference/roles-and-visibility) and [Troubleshooting](/docs/rpg-sessions/troubleshooting) to track down what's missing.

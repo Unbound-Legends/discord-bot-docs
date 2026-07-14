@@ -25,7 +25,7 @@ export default defineConfig({
           items: [
             { label: "Overview", slug: "rpg-sessions" },
             {
-              label: "Guides",
+              label: "Start Here",
               items: [
                 { label: "Getting Started", slug: "rpg-sessions/guides/getting-started" },
                 { label: "Creating a Game", slug: "rpg-sessions/guides/creating-a-game" },
@@ -33,15 +33,88 @@ export default defineConfig({
               ],
             },
             {
-              label: "Game Table",
+              label: "Library",
               items: [
-                { label: "Overview", slug: "rpg-sessions/game-table" },
+                { label: "Overview", slug: "rpg-sessions/library" },
+                { label: "Create Sheets", slug: "rpg-sessions/library/create-sheets" },
+                { label: "Import Sheets", slug: "rpg-sessions/library/imports" },
+                { label: "Manage Sheets", slug: "rpg-sessions/library/manage-sheets" },
               ],
             },
             {
               label: "Character Sheets",
               items: [
                 { label: "Overview", slug: "rpg-sessions/characters" },
+                { label: "Characteristics and Rolls", slug: "rpg-sessions/characters/rolls-and-characteristics" },
+                {
+                  label: "Health, Equipment, and Progression",
+                  slug: "rpg-sessions/characters/health-equipment-and-progression",
+                },
+              ],
+            },
+            {
+              label: "Vehicle Sheets",
+              items: [
+                { label: "Overview", slug: "rpg-sessions/vehicles" },
+                { label: "Operate and Repair", slug: "rpg-sessions/vehicles/operate-and-repair" },
+                {
+                  label: "Crew, Weapons, and Deck Plans",
+                  slug: "rpg-sessions/vehicles/crew-weapons-and-deck-plans",
+                },
+              ],
+            },
+            {
+              label: "Games",
+              items: [
+                { label: "Overview", slug: "rpg-sessions/games" },
+                { label: "Members and Game Masters", slug: "rpg-sessions/games/manage-membership" },
+                {
+                  label: "Settings, Joining, and Drop-In Mode",
+                  slug: "rpg-sessions/games/join-settings-and-drop-in",
+                },
+              ],
+            },
+            {
+              label: "Game Table",
+              items: [
+                { label: "Overview", slug: "rpg-sessions/game-table" },
+                {
+                  label: "Roster, Dice, and Story Points",
+                  slug: "rpg-sessions/game-table/roster-dice-and-story-points",
+                },
+                { label: "Initiative and Chat", slug: "rpg-sessions/game-table/initiative-and-chat" },
+                {
+                  label: "Encounters and Statistics",
+                  slug: "rpg-sessions/game-table/encounters-and-statistics",
+                },
+              ],
+            },
+            {
+              label: "Data Library",
+              items: [
+                { label: "Overview", slug: "rpg-sessions/data-library" },
+                { label: "Kits and Sheet Items", slug: "rpg-sessions/data-library/kits-and-items" },
+                {
+                  label: "Create, Share, and Import Data",
+                  slug: "rpg-sessions/data-library/create-share-and-import",
+                },
+              ],
+            },
+            {
+              label: "Dice",
+              items: [{ label: "Roll Dice", slug: "rpg-sessions/dice" }],
+            },
+            {
+              label: "Account",
+              items: [{ label: "Profile and Connections", slug: "rpg-sessions/account" }],
+            },
+            {
+              label: "Help and Reference",
+              items: [
+                { label: "Troubleshooting", slug: "rpg-sessions/troubleshooting" },
+                { label: "Roles and Visibility", slug: "rpg-sessions/reference/roles-and-visibility" },
+                { label: "Supported Systems", slug: "rpg-sessions/reference/supported-systems" },
+                { label: "Terminology", slug: "rpg-sessions/reference/terminology" },
               ],
             },
           ],

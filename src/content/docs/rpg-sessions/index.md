@@ -1,57 +1,45 @@
 ---
-title: RPG Sessions Platform
-description: Documentation for the RPG Sessions virtual tabletop platform for Star Wars RPG and Genesys
+title: RPG Sessions
+description: Learn how to build sheets, organize games, roll narrative dice, and run sessions on the RPG Sessions website.
+pageType: landing
+audience: [player, gm, sheet-builder]
+surface: home
+systems: [all]
+appRoutes: ["/", "/library", "/game", "/data2", "/dice", "/user/profile"]
+requirements:
+  signedIn: true
+verifiedAt: "2026-07-13"
+verifiedContexts: [source-reviewed, signed-in, gm, admin, desktop]
 ---
 
-RPG Sessions brings character sheets, narrative dice, and a shared game table together for **Star Wars RPG** (Edge of the Empire, Age of Rebellion, and Force and Destiny) and **Genesys**. It calculates dice symbols, keeps character and vehicle sheets connected, and gives the group one place to manage the session.
+Use RPG Sessions to keep narrative dice sheets, shared game tables, encounters, and reusable game data in one place. It supports the Star Wars Roleplaying Game and Genesys, and it adapts the sheets and dice to the game theme you choose.
 
-You can use the same tools for a weekly campaign or a one-shot. Characters, rolls, initiative, and encounters stay with the game instead of being split across spreadsheets and chat messages.
+## Choose what you want to do
 
-## Platform Features
+- **Build or import a sheet:** Start in your [Library](/docs/rpg-sessions/library) to create characters, adversaries, vehicles, and folders.
+- **Run a campaign or one-shot:** [Create a game](/docs/rpg-sessions/guides/creating-a-game), invite the group, and prepare the roster.
+- **Play at the table:** Use the [Game Table](/docs/rpg-sessions/game-table) for actor status, dice, story points, chat, initiative, encounters, statistics, and Maps.
+- **Find reusable rules content:** Browse the [Data Library](/docs/rpg-sessions/data-library) for kits, weapons, armor, gear, qualities, talents, critical tables, encounters, Maps, and more.
+- **Roll outside a game:** Open the [standalone dice roller](/docs/rpg-sessions/dice) and review your roll history.
 
-### Game Tables
+## How the main areas fit together
 
-A game table holds the player roster, shared rolls, initiative, encounters, and game settings. Players can add their characters and follow the session from the same page, while GMs get controls for NPCs and encounter setup.
+Your **Library** holds your sheets. A **Game** brings selected characters and vehicles into a shared **Game Table**. The **Data Library** holds reusable items you can add to those sheets, while **Dice** lets you roll without opening a game.
 
-[Learn more about game tables](/docs/rpg-sessions/game-table)
+Sheets aren't locked to one game. You can manage a character or vehicle in your Library and add it to any game where you have permission. Your changes follow that sheet everywhere it's used.
 
-### Character Sheets
+## Start here
 
-Character sheets track characteristics, skills, talents, equipment, weapons, Force powers, injuries, and the other values used by Star Wars RPG and Genesys. Changes update across the platform, including wound and strain values shown at the game table.
+1. Follow [Getting Started](/docs/rpg-sessions/guides/getting-started) to create an account and learn the main navigation.
+2. [Create or import a sheet](/docs/rpg-sessions/library/create-sheets).
+3. [Create a game](/docs/rpg-sessions/guides/creating-a-game), or open the game link shared by your GM.
+4. Use [Your First Session](/docs/rpg-sessions/guides/your-first-session) as a checklist for play.
 
-[Learn more about character sheets](/docs/rpg-sessions/characters)
+Some tools depend on your role, game settings, account, or table access. These guides tell you where to find a feature when you have access to it. They don't assume every account sees every option.
 
-### Dice Rolling
+## Related tools
 
-Build a pool with Boost, Setback, Ability, Difficulty, Proficiency, Challenge, and Force dice. RPG Sessions calculates Success, Failure, Advantage, Threat, Triumph, Despair, and Force pips when you roll.
+- [Discord Bot](/docs/discord-bot) connects supported sheet, dice, and game-table actions to Discord.
+- [Sessions Maps](/docs/maps) adds shared maps, sheet-linked tokens, fog, lighting, encounters, and other tabletop tools.
 
-### Vehicle Sheets
-
-Vehicle sheets track hull trauma, system strain, weapons, attachments, and crew positions for starships, speeders, walkers, and other craft.
-
-### Character Imports
-
-You can import supported characters from OggDude's Character Generator or SWCharGen Emporium instead of rebuilding them by hand.
-
-### Discord Integration
-
-The [RPG Sessions Discord Bot](/docs/discord-bot) connects the game table to Discord. You can roll dice, view character sheets, and keep supported game events in sync from your server.
-
-### Interactive Maps
-
-[Sessions Maps](/docs/maps) adds shared battle maps, sheet-linked tokens, fog of war, lighting, and grid tools to the game table. Maps requires Adventurer-tier access or an eligible table token.
-
-## Getting Started
-
-Use these guides to set up your account and reach your first game:
-
-1. **[Getting Started](/docs/rpg-sessions/guides/getting-started)** - Create your account, link Discord, and find your way around
-2. **[Creating a Game](/docs/rpg-sessions/guides/creating-a-game)** - Set up a game table and invite your players
-3. **[Your First Session](/docs/rpg-sessions/guides/your-first-session)** - Run through your first session from start to finish
-
-## Related Documentation
-
-- **[Discord Bot](/docs/discord-bot)** - Roll dice, view characters, and sync sessions from Discord
-- **[Sessions Maps](/docs/maps)** - Real-time battle maps and tactical encounters
-
-For help, join the [RPG Sessions community Discord](https://discord.gg/DfEkRzUbjk).
+For community support, join the [RPG Sessions Discord](https://discord.gg/DfEkRzUbjk).

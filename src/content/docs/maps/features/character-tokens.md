@@ -79,10 +79,10 @@ The game table's actor visibility controls what players can learn from a linked 
 
 | Visibility | Token | Name | Stats and Sheet |
 |------------|-------|------|-----------------|
+| Hidden | Shown     | `?????` | Hidden |
 | Visible | Shown | `?????` | Hidden |
 | Known | Shown | Shown | Hidden |
 | Full | Shown | Shown | Shown |
-| Hidden | Hidden | Hidden | Hidden |
 
 The GM always sees the real actor and can edit its visibility. A GM using [Player Preview](/docs/maps/features/gm-controls#preview-the-player-view) sees the player-facing result instead.
 
