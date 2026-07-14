@@ -83,7 +83,7 @@ verifiedContexts: [source-reviewed, signed-in, gm, desktop]
 
 ## Screenshots
 
-Treat the running product as the source of truth. Complete the documented workflow before capturing it, hide development tools with the app's screenshot mode, and use realistic names instead of test or placeholder records.
+Treat the running product as the source of truth. Complete the documented workflow before capturing it, and use realistic names instead of test or placeholder records.
 
 Save RPG Sessions website screenshots under `src/assets/guides/rpg-sessions/` in a folder matching the documented surface. Store other screenshots in a path that matches their documentation area, such as `src/assets/guides/maps/` or `src/assets/misc/`.
 
